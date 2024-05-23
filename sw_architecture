@@ -1,0 +1,51 @@
+
+
+Qs
+	- how does code programming for the mcu work?
+	- communication between mcu and linux work - shared memory + locks/semaphores ?
+	- logs / debugging ? specific debugging mode ?
+	- updates ? rauc, 
+	- manufacturing configuration process / testing process
+
+-----
+
+
+
+
+	linux system
+		- system d + network manager + modem manager + ...
+			- networking
+			- 
+		- python code controlling the buisiness logic + communicating with mcu + communicating with the backend
+		- configuration - general - same for all devices
+				- model - specific for the model 
+					- one/three phase, 
+					- local api / ocpp / somehthing else, 
+					- display/no display/leds, 
+					- no input / display / keys
+					- nfc,  
+					- pos 
+					- 
+				- specific for this one device
+				- toml, json, something else? 
+		- logs / debugging ?
+		- event based system where "services" are enabled / disabled by the configuration ?
+
+	communication with mcu
+		- c program needed?
+		- master slave / master master
+		- protocol? inspiration from klipper? just command+payload? RPC? protobuf? - for sure something that can be defined in one place for two programs
+
+	mcu system
+		- freertos? zephyr? something else?
+		- system parts
+			- communicating with linux system
+			- getting data from power measurement system
+			- gfci - testing and getting data
+			- getting data evse data (pwm envelope, max current, ... )
+			- safety - gfci problems turn off power, disconnect opens relay
+			- relay control
+			- one red led - blinks if there are problems that opened the relay within the mcu 
+
+	additional general features
+		- current leveling - communication between chargers ? local/internet/predefined?

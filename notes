@@ -1,0 +1,12 @@
+This is a project that will create an EVSE but with a couple of experiments during development	
+ - I will use as much AI help as possible during development
+ - The project will use one of the new chips that are able to run linux (~1GHz, ~256MB ram) but have everything integrated (CPU, RAM, MCU for real time stuff)
+ - Will still see what to use as the system to build the linux system, but will start with NixOS
+ - I will try to document as much as I can during development
+ - I will keep track of all the time spent
+
+ Tools:
+ - VScode
+ - Kicad
+ - NixOS
+ - 
