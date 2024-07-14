@@ -1,3 +1,77 @@
+
+-- 11.07.2024 --
+I have quit my day job, so I can now start more intensive with this. !!!
+
+	PCB lower plan:
+		get general schematic set with chips and values selected
+		create the components
+		regenerate the schematic with propper components
+		route the board
+
+		+ route a quick upper adapter board adapting duos and duo to the lower connector. 
+
+
+-- 15.06.2024 --
+
+Boards have arrived. Gave both to Dpavlin. Gave duo256 to Plejic. 
+
+Played with them a little bit. Read up on the mailbox and surounding functionalities. 
+Built image with nixos. Experimented with "official" buildroot image and a debian image. 
+Think will continue with the debian image.
+
+Flow to do stuff
+
+	build image
+	build freertos binary for the other core
+	start/stop execution on the small core
+	change control of the pins from the linux core - device tree
+	communicate between two cores
+	figure out how would the full system be updated?
+
+	start building the actual code for the EVSE
+
+	PCB - lower
+	finish the schematic
+	update all schematic symbols and add pcb symbols
+	route the pcb
+
+	PCB - upper
+	start with just an adapter for duos?
+	start with schematic
+		peripherals?
+		usb
+		ethernet
+		lower board connector
+		serial port
+		sd-card + emcc footprint 
+		wifi + bt? - skip on first version
+		pcb version pins 
+		couple of leds 
+			power ( all rails? first version )
+			couple for control ( linux, rtos ) - 4 pcs
+		buttons
+			boot
+			reset
+			additional for programming, at least two
+
+	fix core selector to riscv?
+	fix usb functionality to usb client only?
+	
+	PCB in general
+	focus on jlcpcb parts?
+	
+
+
+-- 04-06-2024 --
+
+THE BOARDS HAVE ARRIVED!!!
+
+scp-ing to the device needs -O option
+
+/dev/cvi-rtos-cmdqu is missing in the current latest image will try 1.0.9
+
+
+
 -- 01-06-2024 --
 Sent the inquiry email to Bituo. Looking into schematic. Ultra librarian is bullshit. 
 
