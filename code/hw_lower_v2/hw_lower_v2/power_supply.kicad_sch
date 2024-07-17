@@ -1,0 +1,39 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b3b6576a-cf3c-4e49-aac1-b74210435edf")
+	(paper "A4")
+	(title_block
+		(title "EVSE")
+		(date "2024-07-14")
+		(rev "V2")
+		(company "Blue Dot d.o.o.")
+		(comment 1 "Lovro Oreskovic")
+	)
+	(lib_symbols)
+	(hierarchical_label "N_in"
+		(shape passive)
+		(at 54.61 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55af8e5d-607e-4487-868c-a8be2b342ca7")
+	)
+	(hierarchical_label "L_in"
+		(shape passive)
+		(at 54.61 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b7680f5-7dd8-4c11-9334-b990942fdd7d")
+	)
+)
