@@ -5092,8 +5092,8 @@
 				)
 			)
 		)
-		(property "Value" "20k"
-			(at 97.282 56.642 0)
+		(property "Value" "20"
+			(at 96.774 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5495,7 @@
 				)
 			)
 		)
-		(property "Value" "3K3"
+		(property "Value" "3R3"
 			(at 116.078 63.5 0)
 			(effects
 				(font
