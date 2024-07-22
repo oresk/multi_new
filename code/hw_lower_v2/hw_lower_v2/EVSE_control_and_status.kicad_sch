@@ -148,6 +148,164 @@
 				)
 			)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -388,6 +546,139 @@
 				)
 			)
 			(symbol "SMAJ14CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:SMAJ5.0A"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ5.0A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ5.0A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ5.0A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1203,22 +1494,10 @@
 		)
 	)
 	(junction
-		(at 111.76 113.03)
+		(at 50.8 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "06e28eb2-14d7-4363-a03b-7f34edfe29c6")
-	)
-	(junction
-		(at 111.76 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c29d247-0a96-4b45-9b85-da6586ea4380")
-	)
-	(junction
-		(at 105.41 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27665803-7352-4985-a72e-ed69781cf782")
+		(uuid "10953db9-56a9-4cd2-be66-601e7ebe7180")
 	)
 	(junction
 		(at 76.2 59.69)
@@ -1227,7 +1506,7 @@
 		(uuid "2e20d8e3-ed20-416c-a8bb-88ecd2625829")
 	)
 	(junction
-		(at 118.11 113.03)
+		(at 110.49 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36f60e41-f873-43aa-9bea-972904ecce4a")
@@ -1257,6 +1536,12 @@
 		(uuid "58c84a72-21d1-488b-926e-743869416b26")
 	)
 	(junction
+		(at 50.8 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7292cb3e-0c74-46eb-b28c-21196565d7b5")
+	)
+	(junction
 		(at 97.79 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1280,6 +1565,12 @@
 		(color 0 0 0 0)
 		(uuid "ef8394e0-c5d2-4671-a58a-1c940152b317")
 	)
+	(junction
+		(at 105.41 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcf6be62-8956-4b3b-9644-7fc2e454723a")
+	)
 	(wire
 		(pts
 			(xy 121.92 58.42) (xy 121.92 57.15)
@@ -1292,7 +1583,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 105.41) (xy 121.92 105.41)
+			(xy 95.25 105.41) (xy 105.41 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1302,7 +1593,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 171.45) (xy 52.07 171.45)
+			(xy 46.99 171.45) (xy 50.8 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1312,7 +1603,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 171.45) (xy 52.07 176.53)
+			(xy 50.8 171.45) (xy 50.8 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1342,6 +1633,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 156.21) (xy 74.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261fc4c2-9aee-4445-b7c8-5044e8150dda")
+	)
+	(wire
+		(pts
 			(xy 149.86 121.92) (xy 105.41 121.92)
 		)
 		(stroke
@@ -1359,16 +1660,6 @@
 			(type default)
 		)
 		(uuid "2b0467fe-edbc-4fea-897b-183596c4be17")
-	)
-	(wire
-		(pts
-			(xy 111.76 113.03) (xy 118.11 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3766ec42-abee-4766-ad60-5632bcd98ff5")
 	)
 	(wire
 		(pts
@@ -1402,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 156.21) (xy 74.93 156.21)
+			(xy 46.99 156.21) (xy 50.8 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1432,13 +1723,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 113.03) (xy 111.76 113.03)
+			(xy 105.41 113.03) (xy 110.49 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "508c4911-4dd8-4580-8032-0bd1ecf9a257")
+		(uuid "56a67ad3-50d3-4ae5-803e-9dc2e3ea891d")
+	)
+	(wire
+		(pts
+			(xy 50.8 156.21) (xy 50.8 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59337ce8-022c-43f8-a33f-304091ac8aa9")
 	)
 	(wire
 		(pts
@@ -1452,13 +1753,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 105.41) (xy 105.41 105.41)
+			(xy 105.41 105.41) (xy 114.3 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75b1b725-310b-4ec3-a10b-3b3a4daf58ea")
+		(uuid "699dd4bb-7d47-43a1-a4d0-05833a1d75a1")
+	)
+	(wire
+		(pts
+			(xy 50.8 167.64) (xy 50.8 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71211d73-f072-442c-af0f-f4c902f562ff")
 	)
 	(wire
 		(pts
@@ -1502,7 +1813,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 59.69) (xy 76.2 59.69)
+			(xy 87.63 59.69) (xy 76.2 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1592,16 +1903,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 105.41) (xy 111.76 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5a688e9-d7a5-46b6-8c55-2d65e32c2a21")
-	)
-	(wire
-		(pts
 			(xy 97.79 20.32) (xy 97.79 21.59)
 		)
 		(stroke
@@ -1612,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 113.03) (xy 121.92 113.03)
+			(xy 110.49 113.03) (xy 114.3 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1629,6 +1930,17 @@
 			(type default)
 		)
 		(uuid "f5f60aec-d09a-4cba-b004-3bef4b963dee")
+	)
+	(text "PP resistance \n 100ohm 10  mm2 62A\n 220ohm  6  mm2 32A\n 680ohm  2.5mm2 20A\n1500ohm  1.5mm2 10A\n"
+		(exclude_from_sim no)
+		(at 30.48 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51cea969-4e73-4cfd-b37b-b3207f160d2e")
 	)
 	(hierarchical_label "LOCK_SENSE_OUT"
 		(shape input)
@@ -1822,6 +2134,15 @@
 		)
 		(property "Description" "DRV8220 18-V H-Bridge Motor Driver with PWM, PH/EN, and Half-Bridge Control Interfaces"
 			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3681351"
+			(at 95.25 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,6 +2428,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 74.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ec6eecf-775a-496f-8926-788fc99d8576")
 		)
@@ -2124,7 +2454,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 113.03 0)
+		(at 110.49 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2133,7 +2463,7 @@
 		(fields_autoplaced yes)
 		(uuid "37f14aaa-cf6b-4939-9f31-23d2e20b4033")
 		(property "Reference" "#PWR050"
-			(at 118.11 119.38 0)
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2472,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 118.11 0)
+			(at 110.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +2480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 113.03 0)
+			(at 110.49 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 113.03 0)
+			(at 110.49 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2498,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 113.03 0)
+			(at 110.49 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2520,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 55.88 180)
+		(at 87.63 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2198,7 +2528,7 @@
 		(dnp no)
 		(uuid "3b64e0eb-5a06-456f-a5b3-eef11423b7af")
 		(property "Reference" "R24"
-			(at 86.614 54.61 0)
+			(at 89.154 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2537,7 @@
 			)
 		)
 		(property "Value" "56k"
-			(at 86.868 57.15 0)
+			(at 89.408 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,7 +2546,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 86.868 55.88 90)
+			(at 89.408 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 55.88 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2564,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 55.88 0)
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,6 +2713,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82731260-ae4a-4a82-b73e-7752ca88ecab")
 		)
@@ -2436,6 +2784,15 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 14.0Vr, SMA(DO-214AC)"
+			(at 60.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C908820"
 			(at 60.96 46.99 0)
 			(effects
 				(font
@@ -2526,75 +2883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 111.76 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53e8bcce-07d9-40a9-af41-1fa8713f3dd0")
-		(property "Reference" "C13"
-			(at 112.268 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF 25V"
-			(at 106.934 115.062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 112.7252 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 111.76 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e47c699f-e662-4d23-90b0-81096f484556")
-		)
-		(pin "1"
-			(uuid "88a90aad-e816-4344-8174-84d3a2d2d3e4")
-		)
-		(instances
-			(project "hw_lower_v2"
-				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "multi_new:TLV1805")
 		(at 97.79 43.18 0)
 		(mirror y)
@@ -2642,6 +2930,15 @@
 		)
 		(property "Description" "High voltage comparator with push-pull output and shutdown"
 			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2862164"
+			(at 97.79 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,6 +3169,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 105.41 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81fcb227-08dc-49f6-a96a-e0d273c17669")
+		(property "Reference" "C23"
+			(at 105.664 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" " 10u"
+			(at 105.156 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.3752 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab4c5115-c496-4aa7-a193-ddd4cd5ff24f")
+		)
+		(pin "2"
+			(uuid "1e883322-ca54-472b-92db-361afa2b5521")
+		)
+		(instances
+			(project "hw_lower_v2"
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 74.93 148.59 0)
 		(unit 1)
@@ -3070,6 +3445,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0A")
+		(at 50.8 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c92cec8-482d-4959-a46e-2b98badb582d")
+		(property "Reference" "D6"
+			(at 53.34 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ5.0A"
+			(at 53.34 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 45.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 50.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7473307"
+			(at 50.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e0b117b-0fef-445c-a320-8b165b432d99")
+		)
+		(pin "2"
+			(uuid "b63a0d5f-f45f-4a3f-83b5-b85c0284f6c5")
+		)
+		(instances
+			(project ""
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 121.92 53.34 0)
 		(unit 1)
@@ -3123,6 +3577,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a991923b-57a8-45ce-92e9-feb2518930a1")
 		)
@@ -3156,7 +3619,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "66.5k"
+		(property "Value" "66.5k 1%"
 			(at 77.724 64.516 0)
 			(effects
 				(font
@@ -3184,6 +3647,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -3274,75 +3746,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 105.41 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c183597b-d6b0-4570-ae2b-331d2f19426d")
-		(property "Reference" "C12"
-			(at 106.172 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF 25V"
-			(at 100.33 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 106.3752 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c01e38db-0e93-46cc-82c3-52a886fe5e25")
-		)
-		(pin "1"
-			(uuid "40885c88-1006-49aa-b3da-27d8b1976937")
-		)
-		(instances
-			(project "hw_lower_v2"
-				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 121.92 63.5 0)
 		(unit 1)
@@ -3396,6 +3799,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c3ec768-cfb5-452b-b2d7-b426a7d66db2")
 		)
@@ -3413,7 +3825,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 85.09 52.07 0)
+		(at 87.63 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3421,7 +3833,7 @@
 		(dnp no)
 		(uuid "cdce73b0-76ae-4c5b-832b-1b4765a8ef1d")
 		(property "Reference" "#PWR030"
-			(at 85.09 55.88 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3842,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 84.582 48.006 0)
+			(at 87.122 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 52.07 0)
+			(at 87.63 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 52.07 0)
+			(at 87.63 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3868,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 85.09 52.07 0)
+			(at 87.63 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 25V"
+		(property "Value" "100n"
 			(at 105.41 55.8799 0)
 			(effects
 				(font
@@ -3588,6 +4000,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 101.6 54.61 0)
 			(effects
 				(font
@@ -3630,7 +4051,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 25V"
+		(property "Value" "100n"
 			(at 105.41 26.6699 0)
 			(effects
 				(font
@@ -3658,6 +4079,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 101.6 25.4 0)
 			(effects
 				(font
@@ -3700,7 +4130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 77.47 87.6299 0)
 			(effects
 				(font
@@ -3728,6 +4158,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 74.93 86.36 0)
 			(effects
 				(font
@@ -3769,7 +4208,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "200k 1%"
 			(at 77.724 56.896 0)
 			(effects
 				(font
@@ -3805,6 +4244,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03a1bb01-8b3f-40e0-824a-18157df37f50")
 		)
@@ -3822,7 +4270,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 121.92 109.22 0)
+		(at 114.3 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3830,7 +4278,7 @@
 		(dnp no)
 		(uuid "f932f943-d06c-45ae-ac25-b4928395fee2")
 		(property "Reference" "C4"
-			(at 122.682 107.188 0)
+			(at 115.062 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +4287,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 122.936 112.014 0)
+			(at 115.316 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +4296,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 122.8852 113.03 0)
+			(at 115.2652 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +4305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 109.22 0)
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +4314,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 109.22 0)
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +4348,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 176.53 0)
+		(at 50.8 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3900,7 +4357,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc16d37e-fffd-4e32-98d1-2c22bd7ecfe8")
 		(property "Reference" "#PWR055"
-			(at 52.07 182.88 0)
+			(at 50.8 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +4366,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 181.61 0)
+			(at 50.8 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +4374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 176.53 0)
+			(at 50.8 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +4383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 176.53 0)
+			(at 50.8 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +4392,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 176.53 0)
+			(at 50.8 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
