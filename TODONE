@@ -1,4 +1,13 @@
 
+-- 22.07.2024 --
+Schematic is done. 
+Next steps are, 
+	finding the components, preferably on jlcpcb. 
+	Then selecting, finding, drawing footprints. 
+	Then lower pcb layout.
+
+Did some work on figuring out openamp. 
+
 -- 21.07.2024 --
 Finished all the work to wrapup with my last work. Been working more and more.
 Schematic is around 80% done. Working on the sw architecture in parallel a bit, trying to get how to setup and use remoteproc.
