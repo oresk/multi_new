@@ -1832,6 +1832,187 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -3817,7 +3998,7 @@
 		)
 		(uuid "cfad876e-0080-46b0-b8ae-3cd83b6b5948")
 	)
-	(text "SCH:\n- Add test points ?\nX Find voltage transformer -> 2ma/2ma current transformer\nX calculate measurement components\nX create -12V circuit\n- Add flash for lower board calibration and testing\nX AC input protection\nX Proximity pilot pullup value calculation\nX Proximity pilot input protection\n- Motor output voltage protection ?\nX Select interboard connectors\nX Lock sense\n- Lock driver needs to be able to drive 3A\n\nPCB: \ncreate relay footprint\ncreate RCD footprint\nSelect nonpolarised capacitors\nSelect AC connections -> found selection on jlcpcb"
+	(text "SCH:\n- Add test points ?\nX Find voltage transformer -> 2ma/2ma current transformer\nX calculate measurement components\nX create -12V circuit\n- Add flash for lower board calibration and testing\nX AC input protection\nX Proximity pilot pullup value calculation\nX Proximity pilot input protection\n- Motor output voltage protection ?\nX Select interboard connectors\nX Lock sense\n- Lock driver needs to be able to drive 3A\n\nPCB: \nX create relay footprint\nX create RCD footprint\nSelect nonpolarised capacitors\nX Select AC connections -> found selection on jlcpcb"
 		(exclude_from_sim no)
 		(at 129.794 36.322 0)
 		(effects
@@ -3862,6 +4043,73 @@
 		(uuid "2cfc2c8f-5e74-4cea-82bb-16bb52e5641e")
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02a06df3-6e4f-476c-8fc8-0434cd770a8f")
+		(property "Reference" "H2"
+			(at 111.76 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 111.76 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23223cf7-9f3e-470c-b39b-1dba4bf9c2c8")
+		)
+		(instances
+			(project "hw_lower_v2"
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 36.83 90.17 180)
 		(unit 1)
@@ -3870,8 +4118,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06d2f345-f7d1-4f41-abab-ce338f639d3a")
-		(property "Reference" "J14"
-			(at 32.766 90.17 0)
+		(property "Reference" "J6"
+			(at 33.782 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +4162,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C481447"
 			(at 36.83 90.17 0)
 			(effects
 				(font
@@ -3929,7 +4177,74 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "J14")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 171.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a001206-3253-4ac4-9a13-87bd8df82741")
+		(property "Reference" "H1"
+			(at 111.76 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 111.76 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebacf1ec-d92e-4643-b4d0-3318e8be6533")
+		)
+		(instances
+			(project ""
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3944,8 +4259,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "124a5e7c-e397-4784-b21b-4c400e2466ec")
-		(property "Reference" "J11"
-			(at 33.02 72.39 0)
+		(property "Reference" "J3"
+			(at 33.782 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +4303,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C481447"
 			(at 36.83 72.39 0)
 			(effects
 				(font
@@ -4003,7 +4318,138 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "J11")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 133.35 189.23 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ab0817c-6769-40b7-af93-08c349614b1d")
+		(property "Reference" "H6"
+			(at 135.89 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 135.89 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 133.35 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "964de315-8ea0-43ae-abeb-0f89b483399f")
+		)
+		(instances
+			(project "hw_lower_v2"
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 160.02 170.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "247355df-fe4b-42f8-aa77-62c7ea3c38f4")
+		(property "Reference" "FID1"
+			(at 162.56 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 162.56 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 160.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -4018,8 +4464,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "289a8dca-8e3e-4a63-af1c-19f04da588fe")
-		(property "Reference" "J13"
-			(at 32.766 87.63 0)
+		(property "Reference" "J5"
+			(at 33.782 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +4508,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C481447"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -4077,7 +4523,7 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "J13")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4092,7 +4538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3361de06-85a2-4b1f-bb91-97876d53d89b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR09"
 			(at 255.27 137.16 0)
 			(effects
 				(font
@@ -4142,7 +4588,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR039")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4158,7 +4604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4069f51f-b101-491c-af7f-563ddd868c7a")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR010"
 			(at 255.27 157.48 0)
 			(effects
 				(font
@@ -4208,7 +4654,74 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR040")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 133.35 171.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "460a3636-2b37-4155-8e6e-0d0d657efdbb")
+		(property "Reference" "H4"
+			(at 135.89 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 135.89 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 133.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2ea6d8d-3b06-494f-adff-b248406864da")
+		)
+		(instances
+			(project "hw_lower_v2"
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4223,7 +4736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "526a3985-30fd-4c34-8224-38875b00fdac")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR07"
 			(at 246.38 137.16 0)
 			(effects
 				(font
@@ -4273,7 +4786,74 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR037")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 133.35 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53838df2-97fc-4e02-84e4-b902f057589c")
+		(property "Reference" "H5"
+			(at 135.89 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 135.89 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 133.35 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a17d4f73-21e0-4e4d-84ec-1b2b413f22f5")
+		)
+		(instances
+			(project "hw_lower_v2"
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -4288,7 +4868,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54a7cd6f-39bb-4c33-b58a-c5a54d62501b")
-		(property "Reference" "R25"
+		(property "Reference" "R1"
 			(at 233.172 135.382 0)
 			(effects
 				(font
@@ -4349,7 +4929,74 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "R25")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 189.23 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b5bc4b7-9447-467e-a969-ab9aa73d9a23")
+		(property "Reference" "H3"
+			(at 111.76 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 111.76 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c7c9dd0-0ffe-4afb-92e0-61dac6de7635")
+		)
+		(instances
+			(project "hw_lower_v2"
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4364,7 +5011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c1577f9-7d5f-43e3-b847-f134c9be4d0c")
-		(property "Reference" "R26"
+		(property "Reference" "R2"
 			(at 233.426 145.796 0)
 			(effects
 				(font
@@ -4425,7 +5072,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "R26")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4440,8 +5087,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "615d0366-1b36-4741-adf2-4842dfeb51d9")
-		(property "Reference" "J9"
-			(at 32.512 67.31 0)
+		(property "Reference" "J1"
+			(at 33.782 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +5131,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C481447"
 			(at 36.83 67.31 0)
 			(effects
 				(font
@@ -4499,7 +5146,7 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "J9")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4515,7 +5162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65d619cf-087c-4e44-b871-f7dc2d328037")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR03"
 			(at 237.49 157.48 0)
 			(effects
 				(font
@@ -4565,7 +5212,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR036")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4581,7 +5228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a581b2-6aeb-4911-a0f5-4d45822703b9")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR011"
 			(at 262.89 77.47 0)
 			(effects
 				(font
@@ -4631,7 +5278,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR048")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4647,7 +5294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99672357-c6f4-4c60-b774-8cdfbfa3b9b4")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR04"
 			(at 243.84 68.58 0)
 			(effects
 				(font
@@ -4698,7 +5345,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR047")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4714,7 +5361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b078f9-17f0-417a-9dc6-ed108548a82f")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 37.465 99.06 0)
 			(effects
 				(font
@@ -4787,7 +5434,7 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "J2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4802,7 +5449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fa319de-5901-4f86-b946-d982f47c4fcf")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR01"
 			(at 219.71 52.07 0)
 			(effects
 				(font
@@ -4852,7 +5499,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR063")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4868,7 +5515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a18d98ab-e577-44be-ae50-183ec6378fcc")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR08"
 			(at 246.38 157.48 0)
 			(effects
 				(font
@@ -4918,7 +5565,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR038")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4933,7 +5580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1e27a7c-66da-48e3-a247-c21cfceb9244")
-		(property "Reference" "R30"
+		(property "Reference" "R6"
 			(at 251.714 145.796 0)
 			(effects
 				(font
@@ -4994,7 +5641,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "R30")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5009,7 +5656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab408f24-e529-4dd8-abed-abbccf53db24")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR06"
 			(at 243.84 73.66 0)
 			(effects
 				(font
@@ -5060,7 +5707,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR046")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5076,7 +5723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae82d32b-aeac-496a-a89f-80ee83477ff6")
-		(property "Reference" "J3"
+		(property "Reference" "J8"
 			(at 248.92 62.23 0)
 			(effects
 				(font
@@ -5251,7 +5898,7 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "J3")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5266,7 +5913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3425491-e14e-4053-ae94-547394cb7bc8")
-		(property "Reference" "R27"
+		(property "Reference" "R3"
 			(at 242.062 135.382 0)
 			(effects
 				(font
@@ -5327,7 +5974,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "R27")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5342,8 +5989,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb44b481-74be-4bf2-a9fa-f7f8e9b78357")
-		(property "Reference" "J12"
-			(at 33.02 85.09 0)
+		(property "Reference" "J4"
+			(at 33.782 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +6033,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C481447"
 			(at 36.83 85.09 0)
 			(effects
 				(font
@@ -5401,7 +6048,7 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "J12")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5416,8 +6063,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0adbf6c-8fe0-41c3-89b6-0422de677dd8")
-		(property "Reference" "J10"
-			(at 33.02 69.85 0)
+		(property "Reference" "J2"
+			(at 33.782 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +6107,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C481447"
 			(at 36.83 69.85 0)
 			(effects
 				(font
@@ -5475,7 +6122,7 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "J10")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5490,7 +6137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d606cc1d-8c81-47ec-a202-0ddbc98eaaef")
-		(property "Reference" "R28"
+		(property "Reference" "R4"
 			(at 242.57 145.796 0)
 			(effects
 				(font
@@ -5551,7 +6198,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "R28")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5566,7 +6213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ead5ea1c-acf9-4f4b-a1b1-5ae0867884d0")
-		(property "Reference" "R29"
+		(property "Reference" "R5"
 			(at 258.572 135.89 0)
 			(effects
 				(font
@@ -5627,7 +6274,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "R29")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5642,7 +6289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3a04738-d79a-499c-85e3-4c1f24bade84")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR05"
 			(at 243.84 71.12 0)
 			(effects
 				(font
@@ -5692,7 +6339,71 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR062")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 160.02 176.53 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f80f4713-5d2f-46bc-b03a-639990f8d2db")
+		(property "Reference" "FID2"
+			(at 162.56 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 162.56 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -5707,7 +6418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fceb3c00-facf-4863-ab3b-5155a4231f54")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR02"
 			(at 237.49 137.16 0)
 			(effects
 				(font
@@ -5757,7 +6468,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR035")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
