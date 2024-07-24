@@ -431,7 +431,8 @@
       "multi_new"
     ],
     "pinned_symbol_libs": [
-      "multi_new"
+      "multi_new",
+      "test"
     ]
   },
   "meta": {
@@ -504,8 +505,8 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB Part #",
-          "name": "JLCPCB Part #",
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         },
         {
@@ -585,7 +586,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Sim.Device"
+      "sort_field": "LCSC"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -3740,15 +3740,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 110.49 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "27da4850-0d7b-4221-9a0e-516ea38e54e1")
 		)
@@ -3808,15 +3799,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 119.38 54.61 0)
 			(effects
 				(font
@@ -3894,7 +3876,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C914484"
+		(property "LCSC" "C914484"
 			(at 54.61 43.18 0)
 			(effects
 				(font
@@ -3973,15 +3955,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 77.47 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "be16bb07-a77c-49fe-9565-eb85284b0a69")
 		)
@@ -4051,15 +4024,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 226.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6794d0de-032e-49ae-aa29-07c68303d78d")
 		)
@@ -4119,15 +4083,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 218.44 45.72 0)
 			(effects
 				(font
@@ -4272,15 +4227,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 242.57 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "471141a7-c687-4d47-b150-fefb618c524e")
 		)
@@ -4351,15 +4297,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 124.46 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "dbb9452f-069b-459a-9ac0-e02c5200d8e6")
 		)
@@ -4421,15 +4358,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 109.22 45.72 0)
 			(effects
 				(font
@@ -4508,15 +4436,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 242.57 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "1481f558-5f5c-4f14-86f5-ed1deb62eb3c")
 		)
@@ -4577,15 +4496,6 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 40.64 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 40.64 39.37 0)
 			(effects
 				(font
@@ -4728,7 +4638,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C7881"
+		(property "LCSC" "C7881"
 			(at 97.79 96.52 0)
 			(effects
 				(font
@@ -4825,15 +4735,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 237.49 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "403e1edb-af96-4c69-96a4-9a09c70d46a3")
 		)
@@ -4893,15 +4794,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 237.49 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 237.49 53.34 0)
 			(effects
 				(font
@@ -4978,7 +4870,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C347224"
+		(property "LCSC" "C347224"
 			(at 205.74 83.82 0)
 			(effects
 				(font
@@ -5302,7 +5194,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2761663"
+		(property "LCSC" "C2761663"
 			(at 48.26 43.18 0)
 			(effects
 				(font
@@ -5381,15 +5273,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 124.46 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2d951281-9ed7-416f-a0dd-8870da536673")
 		)
@@ -5449,15 +5332,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 218.44 95.25 0)
 			(effects
 				(font
@@ -5533,15 +5407,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 218.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7ed9aece-8e5a-46f9-866a-b376b0ca61bd")
 		)
@@ -5601,15 +5466,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 237.49 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 237.49 95.25 0)
 			(effects
 				(font
@@ -5686,7 +5542,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2923575"
+		(property "LCSC" "C2923575"
 			(at 82.55 43.18 0)
 			(effects
 				(font
@@ -5770,15 +5626,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 101.6 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a828fd0e-197a-467b-8a44-f14ae0fb92e6")
 		)
@@ -5838,15 +5685,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -5983,15 +5821,6 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 119.38 45.72 0)
 			(effects
 				(font
@@ -6201,15 +6030,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "1949675c-b894-475a-8eb0-f74fc7f6f98f")
 		)
@@ -6271,15 +6091,6 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 237.49 45.72 0)
 			(effects
 				(font
@@ -6554,15 +6365,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 63.5 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "21fd1b49-e7eb-45b2-bdd4-58511f23358c")
 		)
@@ -6630,15 +6432,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 195.58 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 195.58 91.44 0)
 			(effects
 				(font
@@ -6781,15 +6574,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "60d03813-973b-4e7c-b3e1-fd9ca46c6dff")
 		)
@@ -6851,15 +6635,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 119.38 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 119.38 99.06 0)
 			(effects
 				(font
@@ -6936,7 +6711,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C347224"
+		(property "LCSC" "C347224"
 			(at 205.74 41.91 0)
 			(effects
 				(font
@@ -7009,15 +6784,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 227.33 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 227.33 91.44 0)
 			(effects
 				(font

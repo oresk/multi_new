@@ -4162,7 +4162,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C481447"
+		(property "LCSC" "C481447"
 			(at 36.83 90.17 0)
 			(effects
 				(font
@@ -4303,7 +4303,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C481447"
+		(property "LCSC" "C481447"
 			(at 36.83 72.39 0)
 			(effects
 				(font
@@ -4508,7 +4508,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C481447"
+		(property "LCSC" "C481447"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -4911,15 +4911,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 237.49 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "db6dead1-d6a8-4ed7-b232-7fc5d2d34a50")
 		)
@@ -5054,15 +5045,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 237.49 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2258d003-9e39-436c-96fc-d1f97186c486")
 		)
@@ -5131,7 +5113,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C481447"
+		(property "LCSC" "C481447"
 			(at 36.83 67.31 0)
 			(effects
 				(font
@@ -5404,15 +5386,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 36.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ff7f3a4e-d433-4bc0-bf76-93831dac48fc")
 		)
@@ -5623,15 +5596,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 255.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6e02abc9-6b08-44fd-925e-5f6ca944af11")
 		)
@@ -5758,15 +5722,6 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 247.65 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 247.65 91.44 0)
 			(effects
 				(font
@@ -5956,15 +5911,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 246.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "89666701-a111-42f0-9aae-4574c46b2121")
 		)
@@ -6033,7 +5979,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C481447"
+		(property "LCSC" "C481447"
 			(at 36.83 85.09 0)
 			(effects
 				(font
@@ -6107,7 +6053,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C481447"
+		(property "LCSC" "C481447"
 			(at 36.83 69.85 0)
 			(effects
 				(font
@@ -6180,15 +6126,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 246.38 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bd97379d-182d-4189-a0f2-f83ba393fec4")
 		)
@@ -6248,15 +6185,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 255.27 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 255.27 137.16 0)
 			(effects
 				(font
