@@ -1536,6 +1536,12 @@
 		(uuid "58c84a72-21d1-488b-926e-743869416b26")
 	)
 	(junction
+		(at 60.96 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bafe427-8fac-4fbd-b7e5-8612e29f6d10")
+	)
+	(junction
 		(at 50.8 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1813,6 +1819,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 90.17) (xy 74.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866a6473-cde9-4b61-995c-34ba252383a4")
+	)
+	(wire
+		(pts
 			(xy 87.63 59.69) (xy 76.2 59.69)
 		)
 		(stroke
@@ -1823,7 +1839,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 90.17) (xy 74.93 90.17)
+			(xy 48.26 90.17) (xy 60.96 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3602,6 +3618,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 60.96 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af3b3b08-2ceb-4d3b-a756-4745b3184c1f")
+		(property "Reference" "#PWR063"
+			(at 60.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8f2d9e6-9017-4036-afc1-7543bfaf61f5")
+		)
+		(instances
+			(project "hw_lower_v2"
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 76.2 63.5 180)
 		(unit 1)
@@ -4185,6 +4267,85 @@
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0A")
+		(at 60.96 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6009377-a4af-4100-a4e1-7aa5513f096f")
+		(property "Reference" "D7"
+			(at 63.5 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ5.0A"
+			(at 63.5 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7473307"
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dfc14c1-d72c-4425-8df7-c5dad9ce3608")
+		)
+		(pin "2"
+			(uuid "41d1639f-fe71-42fd-8424-c6846001bf07")
+		)
+		(instances
+			(project "hw_lower_v2"
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
+					(reference "D7")
 					(unit 1)
 				)
 			)

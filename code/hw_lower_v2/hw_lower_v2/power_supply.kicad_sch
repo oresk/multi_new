@@ -754,364 +754,6 @@
 				)
 			)
 		)
-		(symbol "Device:Filter_EMI_CommonMode"
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FL"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Filter_EMI_CommonMode"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "EMI 2-inductor common mode filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "EMI common mode filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "L_* L_CommonMode*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Filter_EMI_CommonMode_0_1"
-				(circle
-					(center -3.048 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.048 1.524)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -2.54 2.032)
-					(mid -2.032 1.5262)
-					(end -1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -2.032)
-					(mid -2.032 -1.5262)
-					(end -2.54 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 2.032)
-					(mid -1.016 1.5262)
-					(end -0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -2.032)
-					(mid -1.016 -1.5262)
-					(end -1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.032)
-					(mid 0 1.5262)
-					(end 0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.032) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.508) (xy 2.54 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.032) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.032) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.508) (xy -2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 -2.032)
-					(mid 0 -1.5262)
-					(end -0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 2.032)
-					(mid 1.016 1.5262)
-					(end 1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -2.032)
-					(mid 1.016 -1.5262)
-					(end 0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 2.032)
-					(mid 2.032 1.5262)
-					(end 2.54 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -2.032)
-					(mid 2.032 -1.5262)
-					(end 1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Filter_EMI_CommonMode_1_1"
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Fuse"
 			(pin_numbers hide)
 			(pin_names
@@ -2735,7 +2377,7 @@
 		(uuid "770dcccc-adaf-4825-8b95-10a76002547b")
 	)
 	(junction
-		(at 54.61 39.37)
+		(at 64.77 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7876cc08-d271-42aa-8b62-2ed95e584110")
@@ -2789,19 +2431,19 @@
 		(uuid "b72c7759-3039-412d-96d3-e22e204db876")
 	)
 	(junction
-		(at 48.26 46.99)
+		(at 58.42 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0d2bb92-474b-4a92-942c-57cdec8a985b")
 	)
 	(junction
-		(at 54.61 46.99)
+		(at 64.77 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c523136f-7e2f-46b7-b287-5ad94542a711")
 	)
 	(junction
-		(at 48.26 39.37)
+		(at 58.42 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5614fa9-7869-42e4-882e-bdbb48cdb44d")
@@ -2990,7 +2632,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 45.72) (xy 58.42 46.99)
+			(xy 68.58 45.72) (xy 68.58 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3010,7 +2652,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 39.37) (xy 36.83 39.37)
+			(xy 44.45 39.37) (xy 46.99 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3020,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 40.64) (xy 58.42 39.37)
+			(xy 68.58 40.64) (xy 68.58 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3260,7 +2902,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 46.99) (xy 58.42 46.99)
+			(xy 64.77 46.99) (xy 68.58 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3270,7 +2912,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 46.99) (xy 54.61 46.99)
+			(xy 58.42 46.99) (xy 64.77 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3370,7 +3012,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 39.37) (xy 48.26 39.37)
+			(xy 54.61 39.37) (xy 58.42 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3420,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 46.99) (xy 48.26 46.99)
+			(xy 44.45 46.99) (xy 58.42 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3500,7 +3142,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 39.37) (xy 58.42 39.37)
+			(xy 64.77 39.37) (xy 68.58 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3620,7 +3262,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 39.37) (xy 54.61 39.37)
+			(xy 58.42 39.37) (xy 64.77 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3700,7 +3342,7 @@
 	)
 	(hierarchical_label "N_in"
 		(shape passive)
-		(at 34.29 46.99 180)
+		(at 44.45 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3712,7 +3354,7 @@
 	)
 	(hierarchical_label "L_in"
 		(shape passive)
-		(at 34.29 39.37 180)
+		(at 44.45 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3878,7 +3520,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 43.18 0)
+		(at 64.77 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3886,7 +3528,7 @@
 		(dnp no)
 		(uuid "0dcb8937-b616-4f04-a324-8f0c858044b0")
 		(property "Reference" "C12"
-			(at 50.292 40.894 0)
+			(at 60.452 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +3537,7 @@
 			)
 		)
 		(property "Value" "0.1uF/275Vac"
-			(at 48.768 49.53 0)
+			(at 58.928 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +3546,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB:CAP-TH_L18.0-W7.0-P15.00-D0.7"
-			(at 55.5752 46.99 0)
+			(at 65.7352 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +3555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 43.18 0)
+			(at 64.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3564,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 54.61 43.18 0)
+			(at 64.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +3573,7 @@
 			)
 		)
 		(property "LCSC" "C914484"
-			(at 54.61 43.18 0)
+			(at 64.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +4341,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 40.64 39.37 90)
+		(at 50.8 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4708,7 +4350,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fdd1118-f36b-47c3-938a-43bc559b5d7b")
 		(property "Reference" "F1"
-			(at 40.64 33.02 90)
+			(at 50.8 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4358,7 @@
 			)
 		)
 		(property "Value" "1A"
-			(at 40.64 35.56 90)
+			(at 50.8 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,7 +4366,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB:F1206"
-			(at 40.64 41.148 90)
+			(at 50.8 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,7 +4375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 39.37 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,7 +4384,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 40.64 39.37 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,7 +4393,7 @@
 			)
 		)
 		(property "LCSC" "C910830"
-			(at 40.64 39.37 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +5012,7 @@
 	)
 	(symbol
 		(lib_id "Device:Varistor")
-		(at 48.26 43.18 0)
+		(at 58.42 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5378,7 +5020,7 @@
 		(dnp no)
 		(uuid "845639d9-9a8c-4e0b-b96c-b81d5b6794a1")
 		(property "Reference" "RV1"
-			(at 41.91 41.91 0)
+			(at 52.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5029,7 @@
 			)
 		)
 		(property "Value" "10D561K"
-			(at 37.084 44.704 0)
+			(at 47.244 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5038,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB:RES-TH_L12.5-W4.4-P7.50-D0.8-S3.60"
-			(at 46.482 43.18 90)
+			(at 56.642 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5056,7 @@
 			)
 		)
 		(property "Description" "Voltage dependent resistor"
-			(at 48.26 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +5065,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_varistor"
-			(at 48.26 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5074,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 48.26 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5083,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=A 2=B"
-			(at 48.26 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5092,7 @@
 			)
 		)
 		(property "Sim.Params" "threshold=1k"
-			(at 48.26 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5101,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 48.26 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5110,7 @@
 			)
 		)
 		(property "LCSC" "C2761663"
-			(at 48.26 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,89 +6363,6 @@
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/20fd194e-5497-4849-a679-c90ed918333e"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Filter_EMI_CommonMode")
-		(at 63.5 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6e083a9-1d7d-44d5-9d92-b0d57ebef88d")
-		(property "Reference" "FL1"
-			(at 63.119 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Filter_EMI_CommonMode"
-			(at 63.119 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB:FILTER-TH_4P-L17.0-W12.0-P7.00-D0.6-S8.00"
-			(at 63.5 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EMI 2-inductor common mode filter"
-			(at 63.5 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C126488"
-			(at 63.5 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "21fd1b49-e7eb-45b2-bdd4-58511f23358c")
-		)
-		(pin "2"
-			(uuid "dabe6f21-1567-4ce9-86e1-da0ab69ba33b")
-		)
-		(pin "1"
-			(uuid "1f04cffd-d670-44a6-ad95-174abd5be3ba")
-		)
-		(pin "4"
-			(uuid "4349ea7e-46e3-44b4-9859-6c23ad08b5ea")
-		)
-		(instances
-			(project ""
-				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/20fd194e-5497-4849-a679-c90ed918333e"
-					(reference "FL1")
 					(unit 1)
 				)
 			)
