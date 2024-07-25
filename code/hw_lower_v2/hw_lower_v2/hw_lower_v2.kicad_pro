@@ -428,7 +428,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "multi_new"
+      "multi_new",
+      "JLCPCB"
     ],
     "pinned_symbol_libs": [
       "multi_new",
@@ -579,6 +580,12 @@
           "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Name",
+          "name": "Name",
           "show": false
         }
       ],

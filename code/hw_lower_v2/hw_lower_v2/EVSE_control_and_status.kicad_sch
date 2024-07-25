@@ -2186,7 +2186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f9badd4-bc4d-46dd-a976-03ef8bb149f9")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 101.6 35.56 0)
 			(effects
 				(font
@@ -2236,7 +2236,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2251,7 +2251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17cf6a3f-2d5c-49a3-ad21-eddf855fce4b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 121.92 73.66 0)
 			(effects
 				(font
@@ -2301,7 +2301,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2317,7 +2317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2446536d-7fe3-45bf-a082-c5477a0a19db")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 95.25 105.41 0)
 			(effects
 				(font
@@ -2367,7 +2367,7 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2428,6 +2428,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 74.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ec6eecf-775a-496f-8926-788fc99d8576")
 		)
@@ -2453,7 +2462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37f14aaa-cf6b-4939-9f31-23d2e20b4033")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -2503,7 +2512,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2563,6 +2572,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5250755"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6c62bfac-b97d-49c2-b31f-f9eeb5b45be3")
 		)
@@ -2587,7 +2605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d9a0e66-04b3-47ed-bc88-9cfd5f0fd260")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -2637,7 +2655,7 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2687,6 +2705,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 82.55 43.18 0)
 			(effects
 				(font
@@ -2799,7 +2826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4de7e874-0ea6-431f-b215-5c0ada169ec4")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 121.92 53.34 0)
 			(effects
 				(font
@@ -2849,7 +2876,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2883,7 +2910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "JLCPCB:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
 			(at 99.06 43.18 0)
 			(effects
 				(font
@@ -2955,7 +2982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fc776f9-1a4a-422b-a920-bb37ccbc4334")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 95.25 55.88 0)
 			(effects
 				(font
@@ -3005,7 +3032,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3020,7 +3047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "677fc7c4-e083-4036-b1e2-b50100d1a618")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 76.2 73.66 0)
 			(effects
 				(font
@@ -3070,7 +3097,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3085,7 +3112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ca70bd3-be8d-4db8-ad3c-e4d98a709461")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 101.6 64.77 0)
 			(effects
 				(font
@@ -3135,7 +3162,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3159,7 +3186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" " 10u"
+		(property "Value" "10u"
 			(at 105.156 111.76 0)
 			(effects
 				(font
@@ -3168,7 +3195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 106.3752 113.03 0)
 			(effects
 				(font
@@ -3187,6 +3214,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72485"
 			(at 105.41 109.22 0)
 			(effects
 				(font
@@ -3220,7 +3256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9062b10e-ed04-4eba-8d42-2a776f8d6b10")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 74.93 152.4 0)
 			(effects
 				(font
@@ -3270,7 +3306,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3286,7 +3322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94497273-4f3c-4e1f-8fc5-57b9da27d2ef")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 97.79 24.13 0)
 			(effects
 				(font
@@ -3336,7 +3372,7 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3352,7 +3388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "986b4270-18a4-48f0-8d1e-c2dbd44eda7c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 95.25 143.51 0)
 			(effects
 				(font
@@ -3402,7 +3438,7 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3505,7 +3541,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200K"
+		(property "Value" "100K"
 			(at 123.444 54.356 0)
 			(effects
 				(font
@@ -3533,6 +3569,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25803"
 			(at 121.92 53.34 0)
 			(effects
 				(font
@@ -3610,6 +3655,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C861515"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "962647e1-223c-4944-9ed9-21602efb9107")
 		)
@@ -3635,7 +3689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3fd7c95-b4e0-4107-97cb-e27d2d277316")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 74.93 86.36 0)
 			(effects
 				(font
@@ -3685,7 +3739,7 @@
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3709,7 +3763,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200K"
+		(property "Value" "100K"
 			(at 123.444 64.516 0)
 			(effects
 				(font
@@ -3745,6 +3799,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c3ec768-cfb5-452b-b2d7-b426a7d66db2")
 		)
@@ -3769,7 +3832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdce73b0-76ae-4c5b-832b-1b4765a8ef1d")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 87.63 55.88 0)
 			(effects
 				(font
@@ -3819,7 +3882,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3834,7 +3897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d095e637-6755-4ee9-98ba-d07efd18f77e")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 60.96 57.15 0)
 			(effects
 				(font
@@ -3884,7 +3947,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3937,6 +4000,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C38141"
 			(at 101.6 54.61 0)
 			(effects
 				(font
@@ -4015,6 +4087,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C38141"
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "398e66bb-fe94-4c86-b9a3-661fa5da10fc")
 		)
@@ -4077,6 +4158,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 74.93 86.36 0)
 			(effects
 				(font
@@ -4154,6 +4244,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2989567"
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03a1bb01-8b3f-40e0-824a-18157df37f50")
 		)
@@ -4223,6 +4322,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C38141"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f1294a6-9163-439c-af27-74bd83ead30a")
 		)
@@ -4248,7 +4356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc16d37e-fffd-4e32-98d1-2c22bd7ecfe8")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 50.8 182.88 0)
 			(effects
 				(font
@@ -4298,7 +4406,7 @@
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/8ba574d6-efbf-49a1-9fad-b0d96c57b1a3"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)

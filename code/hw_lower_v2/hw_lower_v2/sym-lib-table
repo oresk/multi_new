@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "multi_new")(type "KiCad")(uri "/home/lovro/code/multi_new/code/hw_library/multi_new.kicad_sym")(options "")(descr ""))
-  (lib (name "test")(type "KiCad")(uri "/home/lovro/test/.kicad_sym")(options "")(descr ""))
-  (lib (name "testt")(type "KiCad")(uri "/home/lovro/test/test/JLC2KiCad_lib/symbol/TDA7265.kicad_sym")(options "")(descr ""))
+  (lib (name "T44001")(type "KiCad")(uri "/home/lovro/code/multi_new/code/hw_lower_v2/jlcpcb_parts/JLC2KiCad_lib/symbol/T44001.kicad_sym")(options "")(descr ""))
 )
