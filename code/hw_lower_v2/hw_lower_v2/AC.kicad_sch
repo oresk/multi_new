@@ -3002,6 +3002,12 @@
 		(uuid "4997e8ff-2e8d-46a4-83c1-f1029025a93a")
 	)
 	(junction
+		(at 240.03 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5224c4a3-2386-4bb8-9b44-b7b1e3231336")
+	)
+	(junction
 		(at 97.79 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3451,6 +3457,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 69.85) (xy 200.66 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39375875-92a4-43b0-9409-0e59d0bacf09")
+	)
+	(wire
+		(pts
 			(xy 147.32 33.02) (xy 156.21 33.02)
 		)
 		(stroke
@@ -3771,7 +3787,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 59.69) (xy 246.38 59.69)
+			(xy 240.03 69.85) (xy 246.38 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861ed9e5-89e4-4a6d-9a57-a476ba984d14")
+	)
+	(wire
+		(pts
+			(xy 200.66 69.85) (xy 240.03 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3831,16 +3857,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 72.39) (xy 207.01 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7d78c1d-96a1-4540-a71b-60728e58e3e7")
-	)
-	(wire
-		(pts
 			(xy 109.22 49.53) (xy 146.05 49.53)
 		)
 		(stroke
@@ -3868,6 +3884,16 @@
 			(type default)
 		)
 		(uuid "a987678a-e5f0-4faa-8630-4bd1e3ea7271")
+	)
+	(wire
+		(pts
+			(xy 200.66 59.69) (xy 170.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8e227f-5941-4c6d-b87d-4849d9620d7d")
 	)
 	(wire
 		(pts
@@ -4161,16 +4187,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 62.23) (xy 246.38 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6d2e9cb-bf5e-416f-b4ec-cc318daf6045")
-	)
-	(wire
-		(pts
 			(xy 101.6 137.16) (xy 107.95 137.16)
 		)
 		(stroke
@@ -4191,7 +4207,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 72.39) (xy 207.01 72.39)
+			(xy 176.53 72.39) (xy 246.38 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4459,7 +4475,7 @@
 	)
 	(hierarchical_label "POWER_MEASUREMENT_RX"
 		(shape input)
-		(at 246.38 59.69 0)
+		(at 246.38 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4483,7 +4499,7 @@
 	)
 	(hierarchical_label "POWER_MEASUREMENT_CLK"
 		(shape input)
-		(at 246.38 62.23 0)
+		(at 246.38 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5874,6 +5890,82 @@
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/f685e69a-3cdf-4f53-94e9-452320868ecf"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cbe224e-dc32-4642-82a7-636ec18c46cf")
+		(property "Reference" "R45"
+			(at 243.332 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 243.586 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 238.252 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bc3f1fa-db1b-4131-9cae-9c4d71a89c35")
+		)
+		(pin "2"
+			(uuid "52a07012-356f-4a9c-ab70-1ddaec8404af")
+		)
+		(instances
+			(project "hw_lower_v2"
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/f685e69a-3cdf-4f53-94e9-452320868ecf"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -8914,6 +9006,71 @@
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/f685e69a-3cdf-4f53-94e9-452320868ecf"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 240.03 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8a5893f-061a-4765-bfa4-5e0f41c94e4a")
+		(property "Reference" "#PWR064"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 244.348 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 240.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d246aff9-85a9-48b7-bcb4-95efb69b3f35")
+		)
+		(instances
+			(project "hw_lower_v2"
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa/f685e69a-3cdf-4f53-94e9-452320868ecf"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
