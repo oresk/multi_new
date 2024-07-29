@@ -1,4 +1,17 @@
 
+-- 29.07.2024 --
+First pass component placing is done. The size of the board and the upper board have been set. 
+
+Stuff to do before the layout is done.
+	Set up library properly
+	Set up track sizes
+	Set up all 3d objects
+	Set up DRC
+	Figure out how a label can be brought from schematic to pcb
+	Put tracks
+
+
+
 -- 25.07.2024 --
 Finalized the schematic. 
 Decided on all components. 

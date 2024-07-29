@@ -2166,6 +2166,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d3bdd19c-7da7-49a9-b706-806ed07972c6")
 		)
@@ -2453,6 +2462,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 74.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ec6eecf-775a-496f-8926-788fc99d8576")
 		)
@@ -2589,6 +2607,15 @@
 			)
 		)
 		(property "LCSC" "C5250755"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 87.63 55.88 0)
 			(effects
 				(font
@@ -2738,6 +2765,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82731260-ae4a-4a82-b73e-7752ca88ecab")
 		)
@@ -2809,6 +2845,15 @@
 			)
 		)
 		(property "LCSC" "C908820"
+			(at 60.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 60.96 46.99 0)
 			(effects
 				(font
@@ -2926,7 +2971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCPCB:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
+		(property "Footprint" "multi_new:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
 			(at 99.06 43.18 0)
 			(effects
 				(font
@@ -2954,6 +2999,15 @@
 			)
 		)
 		(property "LCSC" "C2862164"
+			(at 97.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 97.79 43.18 0)
 			(effects
 				(font
@@ -3247,6 +3301,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab4c5115-c496-4aa7-a193-ddd4cd5ff24f")
 		)
@@ -3524,6 +3587,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 50.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e0b117b-0fef-445c-a320-8b165b432d99")
 		)
@@ -3594,6 +3666,15 @@
 			)
 		)
 		(property "LCSC" "C25803"
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 121.92 53.34 0)
 			(effects
 				(font
@@ -3746,6 +3827,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "962647e1-223c-4944-9ed9-21602efb9107")
 		)
@@ -3882,6 +3972,15 @@
 			)
 		)
 		(property "LCSC" "C25803"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 121.92 63.5 0)
 			(effects
 				(font
@@ -4099,6 +4198,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1917f97d-c7fa-4333-90fe-31396a2e96c2")
 		)
@@ -4170,6 +4278,15 @@
 			)
 		)
 		(property "LCSC" "C38141"
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 101.6 25.4 0)
 			(effects
 				(font
@@ -4257,6 +4374,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "86427ea1-7023-477d-9e7c-8c3363eb082b")
 		)
@@ -4328,6 +4454,15 @@
 			)
 		)
 		(property "LCSC" "C7473307"
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 60.96 93.98 0)
 			(effects
 				(font
@@ -4414,6 +4549,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03a1bb01-8b3f-40e0-824a-18157df37f50")
 		)
@@ -4484,6 +4628,15 @@
 			)
 		)
 		(property "LCSC" "C38141"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 114.3 109.22 0)
 			(effects
 				(font

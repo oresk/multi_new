@@ -2511,7 +2511,7 @@
 		(uuid "ad4e0bc1-ea59-4c0b-902c-5b8ca060aed2")
 	)
 	(junction
-		(at 44.45 72.39)
+		(at 44.45 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0631dd9-ee5d-495f-b0c3-f288a6d59e49")
@@ -2602,7 +2602,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 78.74) (xy 67.31 78.74)
+			(xy 72.39 66.04) (xy 67.31 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 72.39) (xy 44.45 72.39)
+			(xy 41.91 77.47) (xy 44.45 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2952,7 +2952,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 49.53) (xy 69.85 81.28)
+			(xy 69.85 49.53) (xy 69.85 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3012,7 +3012,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 81.28) (xy 72.39 81.28)
+			(xy 69.85 68.58) (xy 72.39 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3042,7 +3042,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 67.31) (xy 72.39 67.31)
+			(xy 41.91 72.39) (xy 72.39 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3102,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 69.85) (xy 72.39 69.85)
+			(xy 41.91 74.93) (xy 72.39 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3212,7 +3212,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 44.45 72.39)
+			(xy 44.45 85.09) (xy 44.45 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3232,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 78.74) (xy 67.31 46.99)
+			(xy 67.31 66.04) (xy 67.31 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3492,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 72.39) (xy 72.39 72.39)
+			(xy 44.45 77.47) (xy 72.39 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3870,7 +3870,7 @@
 		)
 		(uuid "cfad876e-0080-46b0-b8ae-3cd83b6b5948")
 	)
-	(text "SCH:\n- Add test points ?\nX Find voltage transformer -> 2ma/2ma current transformer\nX calculate measurement components\nX create -12V circuit\n- Add flash for lower board calibration and testing\nX AC input protection\nX Proximity pilot pullup value calculation\nX Proximity pilot input protection\n- Motor output voltage protection ?\nX Select interboard connectors\nX Lock sense\n- Lock driver needs to be able to drive 3A\n\nPCB: \nX create relay footprint\nX create RCD footprint\nSelect polarised capacitors\nX Select AC connections -> found selection on jlcpcb\nCheck pinout matching sch - pcb\n"
+	(text "SCH:\n- Add test points ?\nX Find voltage transformer -> 2ma/2ma current transformer\nX calculate measurement components\nX create -12V circuit\n- Add flash for lower board calibration and testing\nX AC input protection\nX Proximity pilot pullup value calculation\nX Proximity pilot input protection\n- Motor output voltage protection ?\nX Select interboard connectors\nX Lock sense\n- Lock driver needs to be able to drive 3A\n\nPCB: \nX create relay footprint\nX create RCD footprint\nX Select polarised capacitors\nX Select AC connections -> found selection on jlcpcb\nX Check pinout matching sch - pcb\n"
 		(exclude_from_sim no)
 		(at 129.794 36.322 0)
 		(effects
@@ -3969,6 +3969,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 91.44 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
@@ -4004,7 +4013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB:CONN-TH_T44001"
+		(property "Footprint" "multi_new:CONN-TH_T44001"
 			(at 36.83 90.17 0)
 			(effects
 				(font
@@ -4032,6 +4041,15 @@
 			)
 		)
 		(property "LCSC" "C481447"
+			(at 36.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 36.83 90.17 0)
 			(effects
 				(font
@@ -4107,6 +4125,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
@@ -4118,7 +4145,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 36.83 72.39 180)
+		(at 36.83 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4126,7 +4153,7 @@
 		(dnp no)
 		(uuid "124a5e7c-e397-4784-b21b-4c400e2466ec")
 		(property "Reference" "J3"
-			(at 33.782 72.39 0)
+			(at 33.782 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +4161,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 36.83 68.58 0)
+			(at 36.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,8 +4169,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB:CONN-TH_T44001"
-			(at 36.83 72.39 0)
+		(property "Footprint" "multi_new:CONN-TH_T44001"
+			(at 36.83 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +4179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 72.39 0)
+			(at 36.83 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4188,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 72.39 0)
+			(at 36.83 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4197,16 @@
 			)
 		)
 		(property "LCSC" "C481447"
-			(at 36.83 72.39 0)
+			(at 36.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 36.83 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,6 +4281,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 115.57 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
@@ -4301,6 +4346,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 158.75 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 158.75 189.23 0)
 			(effects
 				(font
@@ -4373,6 +4427,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 142.24 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
@@ -4408,7 +4471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB:CONN-TH_T44001"
+		(property "Footprint" "multi_new:CONN-TH_T44001"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -4436,6 +4499,15 @@
 			)
 		)
 		(property "LCSC" "C481447"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -4642,6 +4714,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 115.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
@@ -4698,6 +4779,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 158.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 158.75 171.45 0)
 			(effects
 				(font
@@ -4835,6 +4925,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 115.57 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
@@ -4888,6 +4987,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 237.49 137.16 0)
 			(effects
 				(font
@@ -4966,6 +5074,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 91.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
@@ -5036,6 +5153,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 237.49 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2258d003-9e39-436c-96fc-d1f97186c486")
 		)
@@ -5053,7 +5179,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 36.83 67.31 180)
+		(at 36.83 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5061,7 +5187,7 @@
 		(dnp no)
 		(uuid "615d0366-1b36-4741-adf2-4842dfeb51d9")
 		(property "Reference" "J1"
-			(at 33.782 67.31 0)
+			(at 33.782 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +5195,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 36.83 63.5 0)
+			(at 36.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,8 +5203,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB:CONN-TH_T44001"
-			(at 36.83 67.31 0)
+		(property "Footprint" "multi_new:CONN-TH_T44001"
+			(at 36.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5213,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 67.31 0)
+			(at 36.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,7 +5222,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 67.31 0)
+			(at 36.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,7 +5231,16 @@
 			)
 		)
 		(property "LCSC" "C481447"
-			(at 36.83 67.31 0)
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 36.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,6 +5521,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 36.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ff7f3a4e-d433-4bc0-bf76-93831dac48fc")
 		)
@@ -5540,6 +5684,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 255.27 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e02abc9-6b08-44fd-925e-5f6ca944af11")
 		)
@@ -5666,6 +5819,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 247.65 91.44 0)
 			(effects
 				(font
@@ -5855,6 +6017,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 246.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89666701-a111-42f0-9aae-4574c46b2121")
 		)
@@ -5896,7 +6067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB:CONN-TH_T44001"
+		(property "Footprint" "multi_new:CONN-TH_T44001"
 			(at 36.83 85.09 0)
 			(effects
 				(font
@@ -5924,6 +6095,15 @@
 			)
 		)
 		(property "LCSC" "C481447"
+			(at 36.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 36.83 85.09 0)
 			(effects
 				(font
@@ -5999,6 +6179,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 158.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
@@ -6010,7 +6199,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 36.83 69.85 180)
+		(at 36.83 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6018,7 +6207,7 @@
 		(dnp no)
 		(uuid "c0adbf6c-8fe0-41c3-89b6-0422de677dd8")
 		(property "Reference" "J2"
-			(at 33.782 69.85 0)
+			(at 33.782 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6215,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 36.83 66.04 0)
+			(at 36.83 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,8 +6223,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB:CONN-TH_T44001"
-			(at 36.83 69.85 0)
+		(property "Footprint" "multi_new:CONN-TH_T44001"
+			(at 36.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 69.85 0)
+			(at 36.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6242,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 69.85 0)
+			(at 36.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +6251,16 @@
 			)
 		)
 		(property "LCSC" "C481447"
-			(at 36.83 69.85 0)
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 36.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,6 +6341,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 246.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd97379d-182d-4189-a0f2-f83ba393fec4")
 		)
@@ -6213,6 +6420,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 142.24 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
@@ -6266,6 +6482,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 255.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 255.27 137.16 0)
 			(effects
 				(font
@@ -6401,6 +6626,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 142.24 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 142.24 180.34 0)
 			(effects
 				(font
@@ -6739,7 +6973,7 @@
 			)
 		)
 		(pin "PE" passive
-			(at 72.39 72.39 180)
+			(at 72.39 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,7 +6983,7 @@
 			(uuid "c6682397-9c7f-459c-8bce-cadc450a6bc5")
 		)
 		(pin "L_in" passive
-			(at 72.39 67.31 180)
+			(at 72.39 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6993,7 @@
 			(uuid "88eca46e-fb97-4ec7-a583-d04afe8cfc36")
 		)
 		(pin "N_in" passive
-			(at 72.39 69.85 180)
+			(at 72.39 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +7113,7 @@
 			(uuid "43313e2a-fb44-420a-af83-52a850a51a94")
 		)
 		(pin "N_internal_power" bidirectional
-			(at 72.39 81.28 180)
+			(at 72.39 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +7123,7 @@
 			(uuid "7ee7d59d-8dea-4546-94dc-ae28e9ebc774")
 		)
 		(pin "L_internal_power" bidirectional
-			(at 72.39 78.74 180)
+			(at 72.39 66.04 180)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1171,7 +1171,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
 		(layer "F.Cu")
 		(uuid "cd0e5305-fc94-49b0-9ace-b36c1ea1c5cb")
-		(at 103 77.5)
+		(at 103 75.5)
 		(descr "Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)")
 		(tags "fiducial")
 		(property "Reference" "FID1"
@@ -1285,7 +1285,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
 		(layer "F.Cu")
 		(uuid "ea0d0149-0e83-4ea8-a6d3-c2f807bd7874")
-		(at 103 115.5)
+		(at 97 112)
 		(descr "Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)")
 		(tags "fiducial")
 		(property "Reference" "FID2"
@@ -1513,7 +1513,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
 		(layer "F.Cu")
 		(uuid "ef170b19-5c49-44d7-8c59-6fdd23592479")
-		(at 192.5 83)
+		(at 193 82)
 		(descr "Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)")
 		(tags "fiducial")
 		(property "Reference" "FID3"
@@ -1627,7 +1627,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
 		(layer "B.Cu")
 		(uuid "2aceede1-a724-4fbd-9d63-8bb34cba5beb")
-		(at 192.5 83 180)
+		(at 193 82 180)
 		(descr "Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)")
 		(tags "fiducial")
 		(property "Reference" "FID6"
@@ -1867,7 +1867,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
 		(layer "B.Cu")
 		(uuid "ef8c27b6-032f-4206-8387-2827fd6fc7ff")
-		(at 103 115.5 180)
+		(at 97 112 180)
 		(descr "Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)")
 		(tags "fiducial")
 		(property "Reference" "FID5"
@@ -13134,16 +13134,89 @@
 		(layer "Dwgs.User")
 		(uuid "ffd92f9e-e93a-4c33-be46-c4dc310158e6")
 	)
-	(gr_rect
-		(start 94 72.5)
-		(end 196 121.5)
+	(gr_arc
+		(start 196 118)
+		(mid 194.974874 120.474874)
+		(end 192.5 121.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "376e1a8f-7093-45d9-8814-279f096de08d")
+		(uuid "59e21768-cbe2-4399-8419-0ba03897b626")
+	)
+	(gr_line
+		(start 192.5 121.5)
+		(end 97.5 121.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "69d2df74-776e-4389-a727-ebe86346fbce")
+	)
+	(gr_arc
+		(start 94 76)
+		(mid 95.025126 73.525126)
+		(end 97.5 72.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6f1d2deb-6f39-47b9-b3b3-0fcaf2a0a80c")
+	)
+	(gr_line
+		(start 97.5 72.5)
+		(end 192.5 72.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8096fbf7-e79e-4280-946a-da8bc4a0449d")
+	)
+	(gr_arc
+		(start 97.5 121.5)
+		(mid 95.025126 120.474874)
+		(end 94 118)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "87493354-105f-4f01-bfde-f2fbc0b450ac")
+	)
+	(gr_arc
+		(start 192.5 72.5)
+		(mid 194.974874 73.525126)
+		(end 196 76)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "be894049-094c-44c5-8acc-2f9d194fa169")
+	)
+	(gr_line
+		(start 196 76)
+		(end 196 118)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e56aa00e-08f9-4ea9-add9-bc8c3b3d6e71")
+	)
+	(gr_line
+		(start 94 118)
+		(end 94 76)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f71f20dc-441c-46be-9e6d-b8213ac78d37")
 	)
 	(gr_rect
 		(start 97.5 76)
@@ -13211,6 +13284,19 @@
 				(thickness 0.079375)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "fillet: 3.5mm"
+		(at 92 124.5 0)
+		(layer "User.7")
+		(uuid "4ebadb44-b042-4842-b274-011793fffdbd")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(group ""
