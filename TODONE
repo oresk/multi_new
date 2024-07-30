@@ -3,9 +3,9 @@
 First pass component placing is done. The size of the board and the upper board have been set. 
 
 Stuff to do before the layout is done.
-	Set up library properly
+	X Set up library properly
 	Set up track sizes
-	Set up all 3d objects
+	X Set up all 3d objects
 	Set up DRC
 	Figure out how a label can be brought from schematic to pcb
 	Put tracks
