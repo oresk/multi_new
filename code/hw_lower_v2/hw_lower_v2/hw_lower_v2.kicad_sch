@@ -2451,6 +2451,12 @@
 		)
 	)
 	(junction
+		(at 240.03 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "075a40a0-3fe8-49f9-bde2-84cc51cbb9ea")
+	)
+	(junction
 		(at 257.81 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3012,6 +3018,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 93.98) (xy 240.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56450d5a-92b1-467f-90ab-485ec72d0b5b")
+	)
+	(wire
+		(pts
 			(xy 69.85 49.53) (xy 69.85 68.58)
 		)
 		(stroke
@@ -3332,6 +3348,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 93.98) (xy 242.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ebe4d7-17e1-4317-9632-8653afc3a682")
+	)
+	(wire
+		(pts
 			(xy 240.03 71.12) (xy 242.57 71.12)
 		)
 		(stroke
@@ -3472,16 +3498,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 68.58) (xy 242.57 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab5b3e3b-14e2-49bf-a563-5c32024e748f")
-	)
-	(wire
-		(pts
 			(xy 257.81 96.52) (xy 257.81 99.06)
 		)
 		(stroke
@@ -3499,6 +3515,16 @@
 			(type default)
 		)
 		(uuid "b62c6493-4e20-473c-9fdf-3b9df10c0986")
+	)
+	(wire
+		(pts
+			(xy 242.57 96.52) (xy 240.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cf5d71-e8fb-4274-a993-f2534876adf7")
 	)
 	(wire
 		(pts
@@ -5393,73 +5419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 240.03 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99672357-c6f4-4c60-b774-8cdfbfa3b9b4")
-		(property "Reference" "#PWR03"
-			(at 243.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 236.22 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 240.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a18a1f6a-75c8-4560-b26c-02935832a729")
-		)
-		(instances
-			(project "hw_lower_v2"
-				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
 		(at 36.83 109.22 0)
 		(unit 1)
@@ -6036,6 +5995,73 @@
 			(project "hw_lower_v2"
 				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 240.03 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b734ba6b-0c2a-4f0f-8541-32ed7d496d74")
+		(property "Reference" "#PWR03"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 236.22 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d4b33bb-9fa8-4f8b-aa59-e90af74ea454")
+		)
+		(instances
+			(project "hw_lower_v2"
+				(path "/c5175f1c-553a-46da-abbd-483c59ad8dfa"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

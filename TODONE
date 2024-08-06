@@ -1,14 +1,23 @@
 
+-- 06.08.2024 --
+Routed the whole board. 
+Fucked up the library, the footprints and the 3d models were still linked to the old JLCPCB folder, need to fix that.
+DRC is mostly ok, need to fix parts of it up. 
+Maybe move to a bigger DRV chip?
+Check Relay holes again.
+
+Prepare for the order.
+
 -- 29.07.2024 --
 First pass component placing is done. The size of the board and the upper board have been set. 
 
 Stuff to do before the layout is done.
 	X Set up library properly
-	Set up track sizes
+	X Set up track sizes
 	X Set up all 3d objects
-	Set up DRC
-	Figure out how a label can be brought from schematic to pcb
-	Put tracks
+	X Set up DRC
+	- Figure out how a label can be brought from schematic to pcb - it can not!
+	X Put tracks
 
 
 
