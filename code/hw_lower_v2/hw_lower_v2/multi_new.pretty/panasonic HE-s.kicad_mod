@@ -199,4 +199,15 @@
 			"9b5295b8-f6e0-4da2-825f-3d6f3011936d" "b3ca973e-7bed-4976-a903-098263594f9b"
 		)
 	)
+	(model "${KIPRJMOD}/packages3d/RELAY-TH_AHES4191.step"
+		(offset
+			(xyz 3 -18 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

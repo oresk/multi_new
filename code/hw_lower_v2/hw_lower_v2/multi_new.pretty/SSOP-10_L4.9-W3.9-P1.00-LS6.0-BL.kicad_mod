@@ -116,8 +116,8 @@
 		(uuid "64840b1d-6e8b-41ec-9b59-d46003920657")
 	)
 	(fp_circle
-		(center -2.450089 3)
-		(end -2.420117 3)
+		(center -2.526213 1.521412)
+		(end -2.496241 1.521412)
 		(stroke
 			(width 0.059995)
 			(type solid)
@@ -219,9 +219,9 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7215b575-be79-438f-8ad1-10e21a5e96c2")
 	)
-	(model "JLC2KiCad_lib/footprint/packages3d/SSOP-10_L4.9-W3.9-P1.00-LS6.0-BL.step"
+	(model "${KIPRJMOD}/packages3d/SSOP-10_L4.9-W3.9-P1.00-LS6.0-BL.step"
 		(offset
-			(xyz -910.2868119 862.7728614 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

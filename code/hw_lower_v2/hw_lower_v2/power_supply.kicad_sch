@@ -12,6 +12,177 @@
 		(comment 1 "Lovro Oreskovic")
 	)
 	(lib_symbols
+		(symbol "AMS1117_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U6"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "multi_new:SOT-223_L6.7-W3.5-P2.30-BR"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, adjustable output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C347224"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo adjustable positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117_1_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117_1_1_1"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -1557,12 +1728,12 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:AMS1117"
+		(symbol "multi_new:AMS1117"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
+			(property "Reference" "U6"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1570,15 +1741,14 @@
 				)
 			)
 			(property "Value" "AMS1117"
-				(at 0 3.175 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(property "Footprint" "multi_new:SOT-223_L6.7-W3.5-P2.30-BR"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -1597,6 +1767,24 @@
 				)
 			)
 			(property "Description" "1A Low Dropout regulator, positive, adjustable output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C347224"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1684,6 +1872,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2587,6 +2793,12 @@
 		(uuid "a691d806-c4cf-405c-9e2a-99ce3934fd28")
 	)
 	(junction
+		(at 214.63 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a948e138-f810-497c-80b6-bf296e1fe7cd")
+	)
+	(junction
 		(at 218.44 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2597,6 +2809,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0d2bb92-474b-4a92-942c-57cdec8a985b")
+	)
+	(junction
+		(at 214.63 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0f58da0-921a-41bc-a128-ed74e2f1c918")
 	)
 	(junction
 		(at 119.38 88.9)
@@ -2757,6 +2975,16 @@
 			(type default)
 		)
 		(uuid "14a03f1f-4fd8-465e-ae8b-7ab9741b529c")
+	)
+	(wire
+		(pts
+			(xy 213.36 86.36) (xy 214.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d54d8f-6744-4ded-ac90-09a3dc3bbc8f")
 	)
 	(wire
 		(pts
@@ -2967,6 +3195,16 @@
 			(type default)
 		)
 		(uuid "43a1ab44-e195-4cac-a136-86765e79fc74")
+	)
+	(wire
+		(pts
+			(xy 214.63 83.82) (xy 214.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1525c3-3417-4b32-91fe-f456813f67bc")
 	)
 	(wire
 		(pts
@@ -3250,6 +3488,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 41.91) (xy 214.63 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c7ce56-777f-4f64-9f25-5866a4898640")
+	)
+	(wire
+		(pts
 			(xy 226.06 58.42) (xy 218.44 58.42)
 		)
 		(stroke
@@ -3270,6 +3518,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 44.45) (xy 214.63 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a859408f-12cb-4fb7-b7a5-08b6385b25ca")
+	)
+	(wire
+		(pts
 			(xy 195.58 100.33) (xy 205.74 100.33)
 		)
 		(stroke
@@ -3287,6 +3545,16 @@
 			(type default)
 		)
 		(uuid "a92cd6a8-f46d-4ee1-a2bf-c67fc578549a")
+	)
+	(wire
+		(pts
+			(xy 214.63 41.91) (xy 218.44 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae641167-42fc-40ea-b1f9-5478e6053fc8")
 	)
 	(wire
 		(pts
@@ -3350,6 +3618,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 83.82) (xy 218.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13bab1e-e50d-4170-9db5-7ffff7b03372")
+	)
+	(wire
+		(pts
 			(xy 195.58 83.82) (xy 198.12 83.82)
 		)
 		(stroke
@@ -3400,7 +3678,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 41.91) (xy 218.44 41.91)
+			(xy 213.36 41.91) (xy 214.63 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3410,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 83.82) (xy 218.44 83.82)
+			(xy 213.36 83.82) (xy 214.63 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3866,7 +4144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "multi_new:CAP-TH_L18.0-W7.0-P15.00-D0.7"
+		(property "Footprint" "multi_new:CAP-TH_L13.0-W6.0-P10.00-D0.6"
 			(at 65.7352 46.99 0)
 			(effects
 				(font
@@ -3893,7 +4171,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C914484"
+		(property "LCSC" "C489079"
 			(at 64.77 43.18 0)
 			(effects
 				(font
@@ -3931,7 +4209,7 @@
 		(at 77.47 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2083bf32-5b49-42a9-a1f3-ac5863e15af5")
@@ -5015,7 +5293,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AMS1117")
+		(lib_id "multi_new:AMS1117")
 		(at 205.74 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5093,6 +5371,9 @@
 		)
 		(pin "2"
 			(uuid "1eacb77f-a8e8-4f53-94e5-578b3ed1a68d")
+		)
+		(pin "4"
+			(uuid "af277c92-3488-48f5-bbd7-2472974931da")
 		)
 		(instances
 			(project "hw_lower_v2"
@@ -5828,7 +6109,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2923575"
+		(property "LCSC" "C209908"
 			(at 82.55 43.18 0)
 			(effects
 				(font
@@ -6924,6 +7205,7 @@
 		)
 	)
 	(symbol
+		(lib_name "AMS1117_1")
 		(lib_id "Regulator_Linear:AMS1117")
 		(at 205.74 41.91 0)
 		(unit 1)
@@ -7002,6 +7284,9 @@
 		)
 		(pin "2"
 			(uuid "559fe424-c5ef-4914-9074-bbc9ceab44d3")
+		)
+		(pin "4"
+			(uuid "408d3126-1a6c-4684-8b7c-247b7adadea9")
 		)
 		(instances
 			(project ""

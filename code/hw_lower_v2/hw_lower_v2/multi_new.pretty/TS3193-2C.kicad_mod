@@ -151,4 +151,15 @@
 		(remove_unused_layers no)
 		(uuid "bb42f925-3c0d-4827-9f64-07e7bdb51c8a")
 	)
+	(model "${KIPRJMOD}/packages3d/TS3193-2C.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0 0 0)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -165,8 +165,8 @@
 		(uuid "357ab8de-c13c-4619-bcd0-438390212868")
 	)
 	(fp_circle
-		(center -4.127127 -5.049936)
-		(end -4.09713 -5.049936)
+		(center -4.000127 -2.843993)
+		(end -3.97013 -2.843993)
 		(stroke
 			(width 0.059995)
 			(type solid)
@@ -240,9 +240,9 @@
 		(remove_unused_layers no)
 		(uuid "da875954-e11f-437a-97ca-559f78cde3cc")
 	)
-	(model "JLC2KiCad_lib/footprint/packages3d/CONN-TH_T44001.step"
+	(model "${KIPRJMOD}/packages3d/CONN-TH_T44001.step"
 		(offset
-			(xyz -0.0001269999981 0 -2.199995567)
+			(xyz -0.000127 0 1.800004)
 		)
 		(scale
 			(xyz 1 1 1)

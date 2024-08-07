@@ -266,4 +266,15 @@
 		(remove_unused_layers no)
 		(uuid "281cdba7-e768-493d-981a-64f210644aae")
 	)
+	(model "${KIPRJMOD}/packages3d/BRCS02C.stp"
+		(offset
+			(xyz 11 15 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
 )

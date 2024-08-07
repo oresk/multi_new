@@ -68,7 +68,7 @@
 		(start -1.800025 -3.549987)
 		(end 1.8 -3.549987)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -78,7 +78,7 @@
 		(start -1.800025 3.549987)
 		(end -1.8 -3.549987)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -88,7 +88,7 @@
 		(start -1.800025 3.549987)
 		(end 1.8 3.549987)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -98,15 +98,15 @@
 		(start 1.8 3.549987)
 		(end 1.8 -3.549987)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "bf530436-c031-4371-ab54-d3899781329a")
 	)
 	(fp_circle
-		(center 3.449987 3.200025)
-		(end 3.5 3.200025)
+		(center 1.8 3.549987)
+		(end 1.850013 3.549987)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -119,7 +119,7 @@
 		(center 3.683007 2.286005)
 		(end 3.810008 2.286005)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(fill none)
@@ -161,7 +161,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "2b81ab91-b396-4b36-b3cf-6b05f0c60e53")
 	)
-	(model "JLC2KiCad_lib/footprint/packages3d/SOT-223_L6.7-W3.5-P2.30-BR.step"
+	(model "${KIPRJMOD}/packages3d/SOT-223_L6.7-W3.5-P2.30-BR.step"
 		(offset
 			(xyz 0 0 0)
 		)

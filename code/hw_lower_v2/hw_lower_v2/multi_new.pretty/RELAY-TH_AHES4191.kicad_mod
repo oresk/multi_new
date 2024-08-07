@@ -68,7 +68,7 @@
 		(start -18.850038 -15.000025)
 		(end -18.850038 15.000025)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -78,7 +78,7 @@
 		(start -18.850038 -15.000025)
 		(end 17.272035 -15.000025)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -88,7 +88,7 @@
 		(start 17.272035 -15.000025)
 		(end 17.272035 -11.715596)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -98,7 +98,7 @@
 		(start 17.272035 -7.284455)
 		(end 17.272035 7.284455)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -108,7 +108,7 @@
 		(start 17.272035 11.715596)
 		(end 17.272035 14.98603)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -118,7 +118,7 @@
 		(start 17.272035 14.98603)
 		(end -18.850038 14.98603)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -210,9 +210,9 @@
 		(remove_unused_layers no)
 		(uuid "8ac29799-6ce3-49b3-bf5d-0545ea49b346")
 	)
-	(model "JLC2KiCad_lib/footprint/packages3d/RELAY-TH_AHES4191.step"
+	(model "${KIPRJMOD}/packages3d/RELAY-TH_AHES4191.step"
 		(offset
-			(xyz -0.7729981884 0.01501139977 -4.999989925)
+			(xyz -0.772998 0.015011 2.00001)
 		)
 		(scale
 			(xyz 1 1 1)

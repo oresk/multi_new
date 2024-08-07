@@ -147,8 +147,8 @@
 		(uuid "9e1ec84e-dd1e-495e-ae26-a359c50690b5")
 	)
 	(fp_circle
-		(center -1.599949 0.800102)
-		(end -1.569977 0.800102)
+		(center -2.268707 0)
+		(end -2.238735 0)
 		(stroke
 			(width 0.059995)
 			(type solid)
@@ -180,7 +180,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f1ba4951-fac6-41bb-aced-1326ca2cbceb")
 	)
-	(model "JLC2KiCad_lib/footprint/packages3d/F1206.step"
+	(model "${KIPRJMOD}/packages3d/F1206.step"
 		(offset
 			(xyz 0 0 0)
 		)

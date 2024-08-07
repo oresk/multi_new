@@ -68,7 +68,7 @@
 		(start -0.9 -1.549911)
 		(end 0.900025 -1.549911)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -78,26 +78,15 @@
 		(start -0.9 1.550114)
 		(end 0.900025 1.550114)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "0bd7bb93-6985-4689-b433-b87c129794de")
 	)
 	(fp_circle
-		(center 1.397003 1.651003)
-		(end 1.524003 1.651003)
-		(stroke
-			(width 0.254001)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "143396f7-dc70-4219-a42d-674a8fb9fc15")
-	)
-	(fp_circle
-		(center 1.400025 1.450013)
-		(end 1.430023 1.450013)
+		(center 0.900025 1.550114)
+		(end 0.930023 1.550114)
 		(stroke
 			(width 0.059995)
 			(type solid)
@@ -105,6 +94,17 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "e61d81e0-1b93-458f-99c2-4be3e6285c62")
+	)
+	(fp_circle
+		(center 1.397003 1.651003)
+		(end 1.524003 1.651003)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "143396f7-dc70-4219-a42d-674a8fb9fc15")
 	)
 	(fp_circle
 		(center 1.400051 0.949962)
@@ -164,7 +164,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5a37e43a-3175-4bdf-b0d0-c90d6839e154")
 	)
-	(model "JLC2KiCad_lib/footprint/packages3d/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR.step"
+	(model "${KIPRJMOD}/packages3d/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR.step"
 		(offset
 			(xyz 0.0000253999996185 -0.0000761999988556 0)
 		)

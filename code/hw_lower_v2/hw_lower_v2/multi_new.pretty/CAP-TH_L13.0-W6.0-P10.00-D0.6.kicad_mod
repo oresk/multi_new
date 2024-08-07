@@ -1,14 +1,14 @@
-(footprint "CAP-TH_L18.0-W7.0-P15.00-D0.7"
+(footprint "CAP-TH_L13.0-W6.0-P10.00-D0.6"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "CAP-TH_L18.0-W7.0-P15.00-D0.7 footprint")
-	(tags "CAP-TH_L18.0-W7.0-P15.00-D0.7 footprint C914484")
+	(descr "CAP-TH_L13.0-W6.0-P10.00-D0.6 footprint")
+	(tags "CAP-TH_L13.0-W6.0-P10.00-D0.6 footprint C489079")
 	(property "Reference" "REF**"
-		(at -0.000102 -5.499975 0)
+		(at 0.000127 -5 0)
 		(layer "F.SilkS")
-		(uuid "d203007e-43e0-4b26-8ec5-0626ecee144b")
+		(uuid "e79cfd22-4fcc-4f5c-b173-54bfbc37e455")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "CAP-TH_L18.0-W7.0-P15.00-D0.7"
-		(at -0.000102 5.500025 0)
+	(property "Value" "CAP-TH_L13.0-W6.0-P10.00-D0.6"
+		(at 0.000127 5 0)
 		(layer "F.Fab")
-		(uuid "63d69143-cd2f-4d95-be6b-8c33ccd83e94")
+		(uuid "dfda76ba-7158-4b42-85e9-ee00465658b6")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "596b6b6b-98a5-497f-ae78-1c2632ab9aaf")
+		(uuid "2612d725-c544-4f69-ab7c-334758e020c5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ed62cbb3-10c4-4cec-ad77-385ea0784cba")
+		(uuid "9497da15-0046-4808-85eb-13fbd52b0396")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6503a1f2-a234-4fb4-a1e4-4ff74066db03")
+		(uuid "a29ad81a-2b02-44c3-9d15-9bdf22a70664")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,60 +65,60 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -9.000102 -3.499975)
-		(end 8.999898 -3.499975)
+		(start -6.499873 -3)
+		(end 6.500127 -3)
 		(stroke
 			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f4b57d9d-f481-412e-a109-17baa00f06da")
+		(uuid "4f01be0a-3cd5-4325-b363-bd1a2684ed9a")
 	)
 	(fp_line
-		(start -9.000102 3.500025)
-		(end -9.000102 -3.499975)
+		(start -6.499873 3)
+		(end -6.499873 -3)
 		(stroke
 			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "da920bff-e502-4e18-a14e-7d480672318f")
+		(uuid "633871ff-3dcc-4c37-8efb-eeedc0008e72")
 	)
 	(fp_line
-		(start 8.999898 3.500025)
-		(end -9.000102 3.500025)
+		(start 6.500127 -3)
+		(end 6.500127 3)
 		(stroke
 			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c69c22d6-7350-49cf-83d4-c2291707365a")
+		(uuid "86ccc26b-ed4a-4d17-94f0-e9bb05e6aa75")
 	)
 	(fp_line
-		(start 8.999898 3.500025)
-		(end 8.999898 -3.499975)
+		(start 6.500127 3)
+		(end -6.499873 3)
 		(stroke
 			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cbfb3bee-c480-432f-a1e2-6aa3f8a40311")
+		(uuid "474a9479-1548-4206-b516-f1057dda6c4b")
 	)
 	(fp_circle
-		(center -9 3.500127)
-		(end -8.970028 3.500127)
+		(center -6.500025 3)
+		(end -6.470028 3)
 		(stroke
 			(width 0.059995)
 			(type solid)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "9b941097-57d1-44b6-99d0-c254213d58ca")
+		(uuid "91597300-2001-4bba-9783-4d128f214706")
 	)
 	(fp_text user "REF**"
-		(at -0.000102 7.500025 0)
+		(at 0.000127 7 0)
 		(layer "F.Fab")
-		(uuid "7cbbba75-8eb7-4933-98aa-352265c5a087")
+		(uuid "89085e21-242b-43d4-a75f-908e6f385b14")
 		(effects
 			(font
 				(size 1 1)
@@ -127,24 +127,24 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -7.500127 0)
-		(size 1.5 1.5)
+		(at -5 0)
+		(size 1.8 1.8)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a8b722b2-2b5c-40cd-bbb8-a12ec3bebdf7")
+		(uuid "59366dad-dd8f-42d7-9cf8-3105364d9c09")
 	)
 	(pad "2" thru_hole circle
-		(at 7.500127 0)
-		(size 1.5 1.5)
+		(at 5 0)
+		(size 1.8 1.8)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "892979e0-1b72-467b-9e55-9dea80f68b2b")
+		(uuid "4badec3b-2401-49ef-a4e0-d9cbef83b805")
 	)
-	(model "${KIPRJMOD}/packages3d/CAP-TH_L18.0-W7.0-P15.00-D0.7.step"
+	(model "${KIPRJMOD}/packages3d/CAP-TH_L13.0-W6.0-P10.00-D0.6.step"
 		(offset
-			(xyz 0 0 0.1)
+			(xyz 0 -3 6)
 		)
 		(scale
 			(xyz 1 1 1)
