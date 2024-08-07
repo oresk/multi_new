@@ -1,9 +1,22 @@
 
+-- 07.08.2024 --
+I moved around components a bit a couple more times. 
+
+I will make another round, trying to lower number of different components
+	- 33nF filter cap can go to 100n - low pass goes from 4.8kHz to 1.6kHz - maybe I can lower the resistor a bit with a different value - there is a 510R resistor used
+	- there are two different 100k resistors - check that 
+	- pp pullup can be 510r
+	- all current limit resistors can go from 1k to 510ohm
+	- board version selection resistors can go from 100k to 10k
+	- 20k + 10k voltage divider 5V->3V3
+
+
+
 -- 06.08.2024 --
 Routed the whole board. 
-Fucked up the library, the footprints and the 3d models were still linked to the old JLCPCB folder, need to fix that.
+Fucked up the library, the footprints and the 3d models were still linked to the old JLCPCB folder, need to fix that. - fixed
 DRC is mostly ok, need to fix parts of it up. 
-Maybe move to a bigger DRV chip?
+Maybe move to a bigger DRV chip? - no
 Check Relay holes again.
 
 Prepare for the order.

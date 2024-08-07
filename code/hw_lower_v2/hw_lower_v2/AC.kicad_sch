@@ -5377,7 +5377,7 @@
 		(dnp no)
 		(uuid "421ba868-14e6-4de6-b8e4-dca51a92619b")
 		(property "Reference" "R13"
-			(at 108.204 102.87 0)
+			(at 108.712 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +5870,7 @@
 		(dnp no)
 		(uuid "574debce-3ea8-4fa1-8176-baeb488740b5")
 		(property "Reference" "R16"
-			(at 147.574 60.96 0)
+			(at 148.336 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,7 +5878,7 @@
 			)
 		)
 		(property "Value" "1R6 1%"
-			(at 150.876 63.246 0)
+			(at 150.368 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
