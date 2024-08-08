@@ -4987,7 +4987,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "820R"
 			(at 125.73 176.53 90)
 			(effects
 				(font
@@ -5022,7 +5022,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C23253"
 			(at 125.73 173.99 0)
 			(effects
 				(font
@@ -5065,7 +5065,7 @@
 		(dnp no)
 		(uuid "38f2a417-39ce-44a8-beea-877322c12f5e")
 		(property "Reference" "R8"
-			(at 78.74 110.236 0)
+			(at 78.74 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5462,7 @@
 		(dnp no)
 		(uuid "444a985a-e047-4bfe-a5cb-f7d90a0d6252")
 		(property "Reference" "R7"
-			(at 85.09 110.236 0)
+			(at 85.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5470,7 @@
 			)
 		)
 		(property "Value" "20K"
-			(at 85.852 112.776 0)
+			(at 85.852 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +5639,7 @@
 				)
 			)
 		)
-		(property "Value" "56k"
+		(property "Value" "10K"
 			(at 213.36 88.9 90)
 			(effects
 				(font
@@ -5674,7 +5674,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5250755"
+		(property "LCSC" "C25804"
 			(at 213.36 86.36 0)
 			(effects
 				(font
@@ -5791,7 +5791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33n"
+		(property "Value" "100n"
 			(at 160.528 67.31 0)
 			(effects
 				(font
@@ -5800,7 +5800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 158.4452 69.85 0)
 			(effects
 				(font
@@ -6112,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "510R"
 			(at 111.76 100.33 90)
 			(effects
 				(font
@@ -6147,7 +6147,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C23193"
 			(at 111.76 97.79 0)
 			(effects
 				(font
@@ -6448,7 +6448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33n"
+		(property "Value" "100n"
 			(at 160.02 59.69 0)
 			(effects
 				(font
@@ -6457,7 +6457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 158.4452 62.23 0)
 			(effects
 				(font
@@ -6967,7 +6967,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C38141"
+		(property "LCSC" "C327162"
 			(at 168.91 38.1 0)
 			(effects
 				(font
@@ -7167,7 +7167,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "20K"
 			(at 224.282 92.71 0)
 			(effects
 				(font
@@ -7202,7 +7202,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C706407"
 			(at 220.98 91.44 0)
 			(effects
 				(font
@@ -7245,7 +7245,7 @@
 		(dnp no)
 		(uuid "8db89f5a-161c-4ab9-aa25-a8b21c0076e9")
 		(property "Reference" "R11"
-			(at 85.598 92.456 0)
+			(at 85.598 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7678,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "510R"
 			(at 151.13 67.564 90)
 			(effects
 				(font
@@ -7713,7 +7713,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C23193"
 			(at 151.13 69.85 0)
 			(effects
 				(font
@@ -8110,7 +8110,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C38141"
+		(property "LCSC" "C327162"
 			(at 111.76 133.35 0)
 			(effects
 				(font
@@ -8368,7 +8368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33n"
+		(property "Value" "100n"
 			(at 117.602 105.41 0)
 			(effects
 				(font
@@ -8377,7 +8377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 117.8052 106.68 0)
 			(effects
 				(font
@@ -8447,7 +8447,7 @@
 		(dnp no)
 		(uuid "d923a6f4-4cd8-49d2-9f12-4d37e5d2d346")
 		(property "Reference" "R9"
-			(at 72.644 110.49 0)
+			(at 72.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8455,7 @@
 			)
 		)
 		(property "Value" "20K"
-			(at 73.152 113.284 0)
+			(at 72.898 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,7 +8726,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C38141"
+		(property "LCSC" "C327162"
 			(at 80.01 41.91 0)
 			(effects
 				(font
@@ -8926,8 +8926,8 @@
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 115.824 177.546 0)
+		(property "Value" "200K"
+			(at 115.316 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8961,7 +8961,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2989567"
 			(at 119.38 179.07 0)
 			(effects
 				(font
@@ -9142,7 +9142,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "510R"
 			(at 151.13 57.15 90)
 			(effects
 				(font
@@ -9177,7 +9177,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C23193"
 			(at 151.13 54.61 0)
 			(effects
 				(font
@@ -9293,7 +9293,7 @@
 			)
 		)
 		(property "Value" "20K"
-			(at 79.502 95.25 0)
+			(at 79.502 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
