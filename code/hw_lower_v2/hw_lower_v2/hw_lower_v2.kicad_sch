@@ -5,7 +5,7 @@
 	(uuid "c5175f1c-553a-46da-abbd-483c59ad8dfa")
 	(paper "A4")
 	(title_block
-		(title "EVSE")
+		(title "BlueEVSE")
 		(date "2024-07-14")
 		(rev "V2")
 		(company "Blue Dot d.o.o.")
@@ -3717,17 +3717,6 @@
 			)
 		)
 		(uuid "cfad876e-0080-46b0-b8ae-3cd83b6b5948")
-	)
-	(text "SCH:\n- Add test points ?\nX Find voltage transformer -> 2ma/2ma current transformer\nX calculate measurement components\nX create -12V circuit\n- Add flash for lower board calibration and testing\nX AC input protection\nX Proximity pilot pullup value calculation\nX Proximity pilot input protection\n- Motor output voltage protection ?\nX Select interboard connectors\nX Lock sense\n- Lock driver needs to be able to drive 3A\n\nPCB: \nX create relay footprint\nX create RCD footprint\nX Select polarised capacitors\nX Select AC connections -> found selection on jlcpcb\nX Check pinout matching sch - pcb\n"
-		(exclude_from_sim no)
-		(at 129.794 36.322 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f23b31f0-85c6-4c3b-9123-f155f8b81e2f")
 	)
 	(label "BV1"
 		(at 248.92 142.24 0)

@@ -5,7 +5,7 @@
 	(uuid "97febb4d-3eaf-4bec-9ec2-206c22670e43")
 	(paper "A4")
 	(title_block
-		(title "EVSE")
+		(title "BlueEVSE")
 		(date "2024-07-14")
 		(rev "V2")
 		(company "Blue Dot d.o.o.")
@@ -2722,7 +2722,7 @@
 				)
 			)
 		)
-		(property "Value" "820R"
+		(property "Value" "510R"
 			(at 82.55 45.466 90)
 			(effects
 				(font
@@ -2757,7 +2757,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23253"
+		(property "LCSC" "C23193"
 			(at 82.55 43.18 0)
 			(effects
 				(font

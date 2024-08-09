@@ -5,7 +5,7 @@
 	(uuid "b3b6576a-cf3c-4e49-aac1-b74210435edf")
 	(paper "A4")
 	(title_block
-		(title "EVSE")
+		(title "BlueEVSE")
 		(date "2024-07-14")
 		(rev "V2")
 		(company "Blue Dot d.o.o.")

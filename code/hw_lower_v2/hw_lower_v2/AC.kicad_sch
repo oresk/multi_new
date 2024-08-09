@@ -5,7 +5,7 @@
 	(uuid "c1fa6702-7763-4a72-8002-c5c425a2553b")
 	(paper "A4")
 	(title_block
-		(title "EVSE")
+		(title "BlueEVSE")
 		(date "2024-07-14")
 		(rev "V2")
 		(company "Blue Dot d.o.o.")
@@ -3495,7 +3495,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 57.15) (xy 118.11 52.07)
+			(xy 137.16 57.15) (xy 137.16 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +4095,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 52.07) (xy 144.78 52.07)
+			(xy 137.16 52.07) (xy 144.78 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4375,7 +4375,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 57.15) (xy 118.11 57.15)
+			(xy 83.82 57.15) (xy 137.16 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5027,7 +5027,7 @@
 				)
 			)
 		)
-		(property "Value" "820R"
+		(property "Value" "510R"
 			(at 125.73 176.53 90)
 			(effects
 				(font
@@ -5062,7 +5062,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23253"
+		(property "LCSC" "C23193"
 			(at 125.73 173.99 0)
 			(effects
 				(font
@@ -7215,7 +7215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 222.758 91.44 90)
 			(effects
 				(font
