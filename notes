@@ -10,3 +10,42 @@ This is a project that will create an EVSE but with a couple of experiments duri
  - Kicad
  - NixOS
  - 
+
+
+-----
+--- 15.08.2024 ---
+	hm, hm, what will I do with the architecture 
+
+	these are the options
+	mmu processor:
+		- buildroot 
+			- "official" build, more people working on it
+			- already has support for all three platforms
+			- manual adding of new packages
+			- not sure what would be needed to move for example from one service daemon to another
+			- 
+		- yocto
+			- recepies available 
+			- not "official" 
+			- need to add support for duos and duo256m
+			- have some experience here
+			- kas seems helpfull 
+		-X nixos 
+			- nice in concept, but I do not have enough experience with nix
+		-X debian 
+			- nice in concept as I have a lot of experience with debian, but every thing is unsupported
+		-X something else - NO
+
+	rtos processor:
+		- FreeRTOS 
+			- simple to make 
+			- have experience with it
+			- there are examples with it
+
+		- ZephyrOS
+			- minimal experience with it and a pretty steep learning curve
+			- would be great to learn it as it actually is an OS and has a lot of devices and code available
+			- there are some examples with it, and there is an PR for support that is in progress. 
+			- has openamp support out of the box
+
+Seems to me that there are two possible combinations, buildroot and FreeRTOS or yocto and ZephyrOS. I will first start with ZephyrOS and Yocto, and if I run into a wall, I will back onto buildroot and FreeRTOS as it seems more flat and direct. 
