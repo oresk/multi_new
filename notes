@@ -11,6 +11,29 @@ This is a project that will create an EVSE but with a couple of experiments duri
  - NixOS
  - 
 
+-----
+--- 26.08.2024 ---
+
+ok, so, decision was made to go with yocto and zephyr. Some nice people have ported yocto to duos and it builds. 
+My next steps are:
+	HW:
+		- go through the whole project once more. 
+		- add temp sensors
+		- start figuring out the pinout
+		- order the boards a couple of days before returning to zagreb
+		- bringup
+	SW:
+		- checkout existing yocto projects and how they are configured, figured what are layers, distros, recipes etc
+		- get zephyros working
+		- get openamp working communication working
+		- get serial on mcu working (device tree on both sides configured properly)
+		- get systemd working
+		- get ocpp python working, and other python packages
+		- start implementing the code
+
+	CLOUD:
+		- get the FOSS ocpp implementation working (OPTIONAL)
+		- integrate device and cloud
 
 -----
 --- 15.08.2024 ---
@@ -49,3 +72,4 @@ This is a project that will create an EVSE but with a couple of experiments duri
 			- has openamp support out of the box
 
 Seems to me that there are two possible combinations, buildroot and FreeRTOS or yocto and ZephyrOS. I will first start with ZephyrOS and Yocto, and if I run into a wall, I will back onto buildroot and FreeRTOS as it seems more flat and direct. 
+
