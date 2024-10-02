@@ -1,4 +1,101 @@
 
+-- 02.10.2024 --
+Yesterday we celebrated Dalija-s birthsday. 
+
+Read through a bit of Zephyr documentation yesterday. 
+Will continue with it today. And I think I will start making the Zephyr app, with the working periperals. 
+-- 01.10.2024 --
+Getting close to starting looking for a job.
+
+Next steps are: 
+  - ADC
+  - communicating through mailbox - simple mode 
+  - getting openamp up and running
+
+But first I'll read zephyr documentation about tasks and communication between them
+-- 30.09.2024 --
+Dankos last day at SOHO. 
+
+Got PWM running, this is the overlay file I did it with:
+
+#include <zephyr/dt-bindings/pwm/pwm.h>
+
+
+/ {
+    aliases {
+        pwm-led0 = &pwm_led0;
+    };
+    pwmleds {
+        compatible = "pwm-leds";
+        pwm_led0: pwm_led_0 {
+            pwms = <&pwm0 1 255 PWM_POLARITY_NORMAL>;
+            label = "PWM MB1";
+        };
+    };
+};
+
+&pinctrl {
+    pwm0_default: pwm0_default {
+        group1 {
+            pinmux = <CVI_PINMUX(VIVO_D1, PWM_3)>;  /* B20 */
+            pinmux = <CVI_PINMUX(VIVO_D10, PWM_1)>;  /* B11 */
+        };
+    };
+};
+
+&pwm0 {
+    status = "okay";
+    pinctrl-0 = <&pwm0_default>;
+    pinctrl-names = "default";
+};
+-- 29.09.2024 --
+
+Got drunk on thursday, slept through friday, went to ikea to find a rug for the living room. 
+Got my workbench cleaned up and reset everything to a hopefully better location.
+
+Will continue with getting periperals on zephyr working.
+
+  currently working and tested:
+    GPIO
+    serial port
+  testing further
+    pwm
+    adc
+    mailbox
+    interrupt?
+      - that should be about it
+
+-- 24.09.2024 --
+Two days ago started the board bringup. 
+All power supplies work. More testing on noise needs to be done.
+Relay control and sense works.
+Control pilot opamp has a bug. Shutdown pin should not be connected to gnd but to -12V.
+Control pilot sense resistor network still needs to be tested. 
+  Can't remember now why I selected the current values. I now made changes. And it should be ok now.
+Serial communication with BL0942 works, actuall measurement needs to be tested.
+BRCS02 - there is a bug with voltage levels, they are probably ok with 3.3v on input, still testing and reverse engineering the input circuit.
+Some led resistors seem to heat up.
+AC voltage resistors seem to be heating up, maybe put more in string. 
+Lock control and lock sense is tested and working.
+
+
+
+TO DO TODAY:
+
+  X Reverse engineer input circuit of the GFI.
+  X Test test and cal inputs of the GFI
+  X Test and adapt values of the control pilot sense resistor values and while doing that test with resistor and diode. 
+  X Test the proximity pilot values with specific outside resistor values.
+  
+  
+
+
+
+-- 05.09.2024 --
+
+ok, I am back. In the meantime, I've built and tested the yocto build by a nice guy from the internet. Managed to build and run it. 
+Now I am back in Zagreb. 
+The plan is to do a run through the pcb and order it and also to build a working project with zephyr and linux communicating. 
 -- 08.08.2024 --
 
 The whole day, listened to Hrvoje Klasnic Kontrapovijest and layed out the board.

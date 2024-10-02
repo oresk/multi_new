@@ -12,6 +12,22 @@ This is a project that will create an EVSE but with a couple of experiments duri
  - 
 
 -----
+
+--- 16.09.2024 ---
+
+  Haven't been working on this for some time. The pcb has been sent, waiting for it to come to Croatia, and to deal with customs. 
+
+  What is the next step?
+
+  - Make a build with zephyr and linux.
+  - Make zephyr with 
+      - gpio in and out
+      - pwm
+      - adc
+      - uart
+      - mailbox/openamp communication with linux
+      - state machine
+
 --- 26.08.2024 ---
 
 ok, so, decision was made to go with yocto and zephyr. Some nice people have ported yocto to duos and it builds. 

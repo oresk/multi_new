@@ -3718,6 +3718,17 @@
 		)
 		(uuid "cfad876e-0080-46b0-b8ae-3cd83b6b5948")
 	)
+	(text "- more resistors in the Vac string\n- check gfci cal with just a pullup\n- "
+		(exclude_from_sim no)
+		(at 158.75 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd9dc405-7bcb-4a00-88e3-c090aaff5fe6")
+	)
 	(label "BV1"
 		(at 248.92 142.24 0)
 		(fields_autoplaced yes)

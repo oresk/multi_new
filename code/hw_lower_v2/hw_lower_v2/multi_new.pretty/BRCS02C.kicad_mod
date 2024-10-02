@@ -146,7 +146,7 @@
 		(at 0 0)
 		(size 2 2)
 		(drill 1.6)
-		(layers "F&B.Cu" "Eco2.User")
+		(layers "Eco2.User")
 		(uuid "34e5bcdc-e0eb-4b00-ac64-cee7873988ce")
 	)
 	(pad "" np_thru_hole circle
